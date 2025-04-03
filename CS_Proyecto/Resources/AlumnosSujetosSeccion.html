@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>@TITULO</title>
+    <style>
+        table.border {
+            border-collapse: collapse;
+        }
+
+            table.border th {
+                padding: 10px;
+                border: 1px solid #DFDFDF;
+                font-size: 13px;
+            }
+
+            table.border td {
+                padding: 10px;
+                border: 1px solid #DFDFDF;
+                font-size: 13px;
+            }
+    </style>
+</head>
+<body>
+    <table style="width:100%">
+        <tr>
+
+            <td style="width:80%">
+                <table>
+                    <tr><td align="left"><h4 style="margin:0px">@TITULO</h4></td></tr>
+                    <tr><td align="left">@DESCRIPCION</td></tr>
+
+                </table>
+            </td>
+
+            <td style="width:30%" align="right">
+                <table>
+                    <tr><td align="right"><h4 style="margin:0px">REPORTE</h4></td></tr>
+                    <tr><td align="right">@FECHA</td></tr>
+
+                </table>
+            </td>
+        </tr>
+
+
+        <tr><td colspan="3" height="30"></td></tr>
+
+        <tr>
+            <td colspan="3">
+                <table class="border" style="width:100%;">
+                    <thead>
+                        <tr style="">
+                             <th style="padding:10px; text-align:left; width:65px;">Seccion</th>
+                            <th style="padding:10px; text-align:left; width:68px;">NIE</th>
+                            <th style="padding:10px; text-align:left; width:100px;">Nombres</th>
+                            <th style="padding:10px; text-align:left; width:100px;">Apellidos</th>
+                           
+                            <th style="padding:10px; text-align:left; width:227px;">Resp. Principal</th>
+                            <th style="padding:10px; text-align:left; width:80px;">Tel. Resp.</th>
+                            <th style="padding:10px; text-align:left; width:60px;">Estado</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                        @FILAS
+
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

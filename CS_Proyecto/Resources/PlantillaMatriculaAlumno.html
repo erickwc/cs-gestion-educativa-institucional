@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>@TITULO</title>
+    <style>
+        table.border {
+            border-collapse: collapse;
+        }
+
+        border2 {
+        }
+
+        table.border2 td {
+            padding-bottom: 25px;
+            border: 1px solid white;
+        }
+
+        .border {
+            border: 1px solid #000;
+            padding: 10px;
+        }
+
+        h4 {
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+    <table style="width:100%">
+        <tr>
+            <td style="width:80%">
+                <table>
+                    <tr><td align="left"><h4 style="margin:0px">@TITULO</h4></td></tr>
+                    <tr><td align="left">@DESCRIPCION</td></tr>
+                </table>
+            </td>
+
+            <td style="width:30%" align="right">
+                <table>
+                    <tr><td align="right"><h4 style="margin:0px">NIE: @NIE</h4></td></tr>
+                    <tr><td align="right">@FECHA</td></tr>
+                </table>
+            </td>
+        </tr>
+
+        <tr><td colspan="3" height="15"></td></tr>
+
+        <tr>
+            <td colspan="4" class="border">
+
+                <h4 style="margin-top: 0;">DATOS PERSONALES</h4>
+                <table style="width:100%;">
+                    <thead>
+                        <tr>
+                            <th style="text-align:left; font-size:15px; width:250px;">Nombres</th>
+                            <th style="text-align:left; font-size:15px; width:250px;">Apellidos</th>
+                            <th style="text-align:left; font-size:15px; width:250px;">Fecha Nac</th>
+                            <th style="text-align:left; font-size:15px; width:250px;">Lugar Nac</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="text-align:left; font-size:15px; width:250px; padding-top:6px;">@Nombres</td>
+                            <td style="text-align:left; font-size:15px; width:250px; padding-top:6px;">@apellidos</td>
+                            <td style="text-align:left; font-size:15px; width:250px; padding-top:6px;">@fechaNac</td>
+                            <td style="text-align:left; font-size:15px; width:250px; padding-top:6px;">@LugarNac</td>
+                        </tr>
+                    </tbody>
+                    <tr><td colspan="3" height="13"></td></tr>
+                </table>
+
+                <table style="width:100%;">
+                    <thead>
+                        <tr>
+                            <th style="text-align:left; font-size:15px; width:250px;">Genero</th>
+                            <th style="text-align:left; font-size:15px; width:250px;">Inst. Procedencia</th>
+                            <th style="text-align:left; font-size:15px; width:250px;">Partida Nac</th>
+                            <th style="text-align:left; font-size:15px; width:250px;">Nacionalidad</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="text-align:left; font-size:15px; width:250px; padding-top:6px;">@Genero</td>
+                            <td style="text-align:left; font-size:15px; width:250px; padding-top:6px;">@instProc</td>
+                            <td style="text-align:left; font-size:15px; width:250px; padding-top:6px;">@PartidaNac</td>
+                            <td style="text-align:left; font-size:15px; width:250px; padding-top:6px;">@Nacionalidad</td>
+                        </tr>
+                    </tbody>
+                    <tr><td colspan="3" height="13"></td></tr>
+                </table>
+
+
+
+                <table style="width:100%;">
+                    <thead>
+                        <tr>
+                            <th style="text-align:left; font-size:15px; width:250px;">Educ. Inicial</th>
+                            <th style="text-align:left; font-size:15px; width:250px;">Sección Inicial</th>
+                            <th style="text-align:left; font-size:15px; width:250px;">Año de Ingreso</th>
+                            <th style="text-align:left; font-size:15px; width:250px;">¿Repitiendo Año?</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="text-align:left; font-size:15px; width:250px; padding-top:6px;">@EducInicial</td>
+                            <td style="text-align:left; font-size:15px; width:250px; padding-top:6px;">@SecInicial</td>
+                            <td style="text-align:left; font-size:15px; width:250px; padding-top:6px;">@AñoIngreso</td>
+                            <td style="text-align:left; font-size:15px; width:250px; padding-top:6px;">@Repitiendo</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </td>
+        </tr>
+
+        <tr><td colspan="3" height="15"></td></tr>
+
+        <tr>
+            <td colspan="4" class="border">
+
+                <h4 style="margin-top: 0;">RESPONSABLE PRINCIPAL</h4>
+                <table style="width:100%;">
+                    <thead>
+                        <tr>
+                            <th style="text-align:left; font-size:15px; width:250px;">Nombre Completo</th>
+                            <th style="text-align:left; font-size:15px; width:250px;">Politicamente Exp.</th>
+                            <th style="text-align:left; font-size:15px; width:250px;">Parentesco</th>
+                            <th style="text-align:left; font-size:15px; width:250px;">DUI</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="text-align:left; font-size:15px; width:250px; padding-top:6px;">@RespPrin</td>
+                            <td style="text-align:left; font-size:15px; width:250px; padding-top:6px;">@Politica</td>
+                            <td style="text-align:left; font-size:15px; width:250px; padding-top:6px;">@parentesco</td>
+                            <td style="text-align:left; font-size:15px; width:250px; padding-top:6px;">@dui</td>
+                        </tr>
+                    </tbody>
+                    <tr><td colspan="3" height="13"></td></tr>
+                </table>
+
+                <table style="width:100%;">
+                    <thead>
+                        <tr>
+                            <th style="text-align:left; font-size:15px; width:250px;">Genero</th>
+                            <th style="text-align:left; font-size:15px; width:250px;">Correo</th>
+                            <th style="text-align:left; font-size:15px; width:250px;">Tel. Principal</th>
+                            <th style="text-align:left; font-size:15px; width:250px;">Tel. Secundario</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="text-align:left; font-size:15px; width:250px; padding-top:6px;">@genero</td>
+                            <td style="text-align: left; font-size: 15px; width: 250px; padding-top: 6px; padding-right: 6px;">@correo</td>
+                            <td style="text-align:left; font-size:15px; width:250px; padding-top:6px;">@telPrin</td>
+                            <td style="text-align:left; font-size:15px; width:250px; padding-top:6px;">@telSec</td>
+                        </tr>
+                    </tbody>
+                    <tr><td colspan="3" height="14"></td></tr>
+                </table>
+
+                <table style="width:100%;">
+                    <thead>
+                        <tr>
+                            <th style="text-align:left; font-size:15px; width:250px;">Lugar de trabajo</th>
+                            <th style="text-align:left; font-size:15px; width:250px;">Tel. Trabajo Prin.</th>
+                            <th style="text-align:left; font-size:15px; width:250px;">Tel. Trabajo Sec.</th>
+                            <th style="text-align:left; font-size:15px; width:250px;"></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="text-align:left; font-size:15px; width:250px; padding-top:6px;">@LugarTrab</td>
+                            <td style="text-align:left; font-size:15px; width:250px; padding-top:6px;">@TelTrabPrin</td>
+                            <td style="text-align:left; font-size:15px; width:250px; padding-top:6px;">@TelTrabSec</td>
+                            <td style="text-align:left; font-size:15px; width:250px; color:white;">@LUGARNAC</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </td>
+        </tr>
+
+        <tr><td colspan="3" height="15"></td></tr>
+
+        <tr>
+            <td colspan="4" class="border">
+
+
+                <h4 style="margin-top: 0;">RESPONSABLE SECUNDARIO</h4>
+                <table style="width:100%;">
+                    <thead>
+                        <tr>
+                            <th style="text-align:left; font-size:15px; width:250px;">Nombre Completo</th>
+                            <th style="text-align:left; font-size:15px; width:250px;">Parentesco</th>
+                            <th style="text-align:left; font-size:15px; width:250px;">Lugar Trabajo</th>
+                            <th style="text-align:left; font-size:15px; width:250px;">DUI</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="text-align:left; font-size:15px; width:250px; padding-top:6px;">@RespSec</td>
+                            <td style="text-align:left; font-size:15px; width:250px; padding-top:6px;">@Parentesco</td>
+                            <td style="text-align:left; font-size:15px; width:250px; padding-top:6px;">@LugarTrab</td>
+                            <td style="text-align:left; font-size:15px; width:250px; padding-top:6px;">@Dui</td>
+                        </tr>
+                    </tbody>
+                    <tr><td colspan="3" height="13"></td></tr>
+                </table>
+
+                <table style="width:100%;">
+                    <thead>
+                        <tr>
+                            <th style="text-align:left; font-size:15px; width:250px;">Tel. Principal</th>
+                            <th style="text-align:left; font-size:15px; width:250px;">Tel. Secundario</th>
+                            <th style="text-align: left; font-size: 15px; width: 250px; color: white;">Tel. Secundario</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="text-align:left; font-size:15px; width:250px; padding-top:6px;">@TelPrinRespSec</td>
+                            <td style="text-align:left; font-size:15px; width:250px; padding-top:6px;">@TelSecRespSec</td>
+                            <td style="text-align:left; font-size:15px; width:250px; color:white;">@FECHANAC</td>
+                            <td style="text-align:left; font-size:15px; width:250px; color:white;">@LUGARNAC</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+
+            </td>
+        </tr>
+
+        <tr><td colspan="3" height="15"></td></tr>
+
+        <tr>
+            <td colspan="4" class="border">
+
+
+                <h4 style="margin-top: 0;">RESIDENCIA Y CONTACTO</h4>
+                <table style="width:100%;">
+                    <thead>
+                        <tr>
+                            <th style="text-align:left; font-size:15px; width:250px;">Direccion</th>
+                            <th style="text-align:left; font-size:15px; width:250px;">Canton</th>
+                            <th style="text-align:left; font-size:15px; width:250px;">Caserio</th>
+                            <th style="text-align:left; font-size:15px; width:250px;">Departamento</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="text-align:left; font-size:15px; width:250px; padding-top:6px;">@direccion</td>
+                            <td style="text-align:left; font-size:15px; width:250px; padding-top:6px;">@canton</td>
+                            <td style="text-align:left; font-size:15px; width:250px; padding-top:6px;">@caserio</td>
+                            <td style="text-align:left; font-size:15px; width:250px; padding-top:6px;">@departamento</td>
+                        </tr>
+                    </tbody>
+                    <tr><td colspan="3" height="13"></td></tr>
+                </table>
+
+                <table style="width:100%;">
+                    <thead>
+                        <tr>
+                            <th style="text-align:left; font-size:15px; width:250px;">Municipio</th>
+                            <th style="text-align:left; font-size:15px; width:250px;">Zona Residencia</th>
+                            <th style="text-align:left; font-size:15px; width:250px;">Tel. Fijo</th>
+                            <th style="text-align:left; font-size:15px; width:250px;">Tel. Fijo Sec.</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="text-align:left; font-size:15px; width:250px; padding-top:6px;">@municipio</td>
+                            <td style="text-align:left; font-size:15px; width:250px; padding-top:6px;">@residencia</td>
+                            <td style="text-align:left; font-size:15px; width:250px; padding-top:6px;">@telFijo</td>
+                            <td style="text-align:left; font-size:15px; width:250px; padding-top:6px;">@telFijoSec</td>
+                        </tr>
+                    </tbody>
+                    <tr><td colspan="3" height="13"></td></tr>
+                </table>
+
+                <table style="width:100%;">
+                    <thead>
+                        <tr>
+                            <th style="text-align:left; font-size:15px; width:250px;">Tel. Alumno</th>
+                            <th style="text-align:left; font-size:15px; width:250px;">Tel. Sec. Alumno</th>
+                            <th style="text-align:left; font-size:15px; width:250px;">Correo Alumno</th>
+                            <th style="text-align:left; font-size:15px; width:250px; color:white;">Correo Alumno</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="text-align:left; font-size:15px; width:250px; padding-top:6px;">@telAlumno</td>
+                            <td style="text-align:left; font-size:15px; width:250px; padding-top:6px;">@tlSec</td>
+                            <td style="text-align:left; font-size:15px; width:250px; padding-top:6px;">@CorreoAlumno</td>
+                            <td style="text-align:left; font-size:15px; width:250px; color:white;">@LUGARNAC</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </td>
+        </tr>
+
+        <tr><td colspan="3" height="50"></td></tr>
+
+        <tr>
+            <td colspan="4" class="border">
+
+
+                <h4 style="margin-top: 0;">SITUACION FAMILIAR</h4>
+                <table style="width:100%;">
+                    <thead>
+                        <tr>
+                            <th style="text-align:left; font-size:15px; width:250px;">Personas Hogar</th>
+                            <th style="text-align:left; font-size:15px; width:250px;">Dependencia Fam.</th>
+                            <th style="text-align:left; font-size:15px; width:250px;">Dependencia Eco.</th>
+                            <th style="text-align:left; font-size:15px; width:250px;">Lugar Trabajo</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="text-align:left; font-size:15px; width:250px; padding-top:6px;">@numero</td>
+                            <td style="text-align:left; font-size:15px; width:250px; padding-top:6px;">@dependenciaFam</td>
+                            <td style="text-align:left; font-size:15px; width:250px; padding-top:6px;">@dependenciaEco</td>
+                            <td style="text-align:left; font-size:15px; width:250px; padding-top:6px;">@lugartrabajo</td>
+                        </tr>
+                    </tbody>
+                    <tr><td colspan="3" height="13"></td></tr>
+                </table>
+
+                <table style="width:100%;">
+                    <thead>
+                        <tr>
+                            <th style="text-align:left; font-size:15px; width:250px;">Cargo Trabajo</th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="text-align: left; font-size: 15px; width: 250px; padding-top: 6px;">@CargoTrabajo</td>
+                            <td style="text-align:left; font-size:15px; width:250px; color:white;">@APELLIDOS</td>
+                            <td style="text-align:left; font-size:15px; width:250px; color:white;">@FECHANAC</td>
+                            <td style="text-align:left; font-size:15px; width:250px; color:white;">@LUGARNAC</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </td>
+        </tr>
+
+        <tr><td colspan="3" height="15"></td></tr>
+
+        <tr>
+            <td colspan="4" class="border">
+                <h4 style="margin-top: 0;">DATOS COMPLEMENTARIOS</h4>
+                <table style="width:100%;">
+                    <thead>
+                        <tr>
+                            <th style="text-align:left; font-size:15px; width:250px;">Vacunacion COVID</th>
+                            <th style="text-align:left; font-size:15px; width:250px;">Proceso Academico</th>
+                            <th style="text-align:left; font-size:15px; width:250px;">¿Posee Internet?</th>
+                            <th style="text-align:left; font-size:15px; width:250px;">Tipo de Conexion</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="text-align:left; font-size:15px; width:250px; padding-top:6px;">@vacunacion</td>
+                            <td style="text-align:left; font-size:15px; width:250px; padding-top:6px;">@proceso</td>
+                            <td style="text-align:left; font-size:15px; width:250px; padding-top:6px;">@internet</td>
+                            <td style="text-align:left; font-size:15px; width:250px; padding-top:6px;">@tipoconexion</td>
+                        </tr>
+                    </tbody>
+                    <tr><td colspan="3" height="13"></td></tr>
+                </table>
+
+                <table style="width:100%;">
+                    <thead>
+                        <tr>
+                            <th style="text-align:left; font-size:15px; width:250px;">¿Estabilidad Internet?</th>
+                            <th style="text-align:left; font-size:15px; width:250px;">Prov. Internet</th>
+                            <th style="text-align:left; font-size:15px; width:250px;">Recursos Tecnologicos</th>
+                            <th style="text-align:left; font-size:15px; width:250px; color:white;">Recursos Tecnologicos</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="text-align:left; font-size:15px; width:250px; padding-top:6px;">@estabilidad</td>
+                            <td style="text-align:left; font-size:15px; width:250px; padding-top:6px;">@provInter</td>
+                            <td style="text-align:left; font-size:15px; width:250px; padding-top:6px;">@Recursos</td>
+                            <td style="text-align:left; font-size:15px; width:250px; color:white;">@LUGARNAC</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </td>
+        </tr>
+
+        <tr><td colspan="3" height="15"></td></tr>
+
+        <tr>
+            <td colspan="4" class="border">
+
+                <h4 style="margin-top: 0;">PAGO DE MATRICULA</h4>
+                <table style="width:100%;">
+                    <thead>
+                        <tr>
+                            <th style="text-align:left; font-size:15px; width:250px;">Tipo Pago</th>
+                            <th style="text-align:left; font-size:15px; width:250px;">Cantidad Cancelada</th>
+                            <th style="text-align:left; font-size:15px; width:250px;">Cantidad Restante</th>
+                            <th style="text-align:left; font-size:15px; width:250px;">Forma Pago</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="text-align:left; font-size:15px; width:250px; padding-top:6px;">@tipoPago</td>
+                            <td style="text-align:left; font-size:15px; width:250px; padding-top:6px;">@cantCancelada</td>
+                            <td style="text-align:left; font-size:15px; width:250px; padding-top:6px;">@cantRestante</td>
+                            <td style="text-align:left; font-size:15px; width:250px; padding-top:6px;">@formaPago</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+
+        <tr><td colspan="3" height="15"></td></tr>
+
+        <tr>
+            <td colspan="4" class="border">
+                <h4 style="margin-top: 0;">INSCRIPCION DE MATRICULA</h4>
+                <table style="width:100%;">
+                    <thead>
+                        <tr>
+                            <th style="text-align:left; font-size:15px; width:250px;">Seccion Asignada</th>
+                            <th style="text-align:left; font-size:15px; width:250px;">Especialidad</th>
+                            <th style="text-align:left; font-size:15px; width:250px;">Estado</th>
+                            <th style="text-align:left; font-size:15px; width:250px;">Numero Talonario</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="text-align:left; font-size:15px; width:250px; padding-top:6px;">@seccion</td>
+                            <td style="text-align:left; font-size:15px; width:250px; padding-top:6px;">@especialidad</td>
+                            <td style="text-align:left; font-size:15px; width:250px; padding-top:6px;">@estado</td>
+                            <td style="text-align:left; font-size:15px; width:250px; padding-top:6px;">@numtalonario</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </td>
+        </tr>
+
+        <tr><td colspan="3" height="395"></td> </tr>
+        <tr><td colspan="3" height="0">  <h4 style="margin-top: 0;">INFORMACION MEDICA DEL ALUMNO</h4></td> </tr>
+
+        <tr style="width:100%;">
+            <td colspan="4" class="border">
+                <h4 style="margin-top: 0;">MEDICAMENTOS DEL ALUMNO</h4>
+                <table style="width:100%;" class="border2">
+                    <thead>
+                        <tr style="">
+                            <th style="padding-bottom:10px; text-align:left; font-size:15px; width:500px;">Medicamento</th>
+                            <th style="padding-bottom:10px; text-align:left; font-size:15px; width:500px;">Dosis</th>
+                            <th style="padding-bottom:10px; text-align:left; font-size:15px; width:500px;">Frecuencia</th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                        @FILASMEDICAMENTOS
+
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+
+        <tr><td colspan="3" height="30"></td></tr>
+
+        <tr style="width:100%;">
+            <td colspan="4" class="border">
+                <h4 style="margin-top: 0;">AFECCIONES DEL ALUMNO</h4>
+                <table style="width:100%;" class="border2">
+                    <thead>
+                        <tr style="">
+                            <th style="padding-bottom: 10px; text-align: left; font-size: 15px; width: 250px;">Afeccion</th>
+                            <th style="padding-bottom: 10px; text-align: left; font-size: 15px; width: 250px;">Tipo</th>
+                            <th style="padding-bottom: 10px; text-align: left; font-size: 15px; width: 500px;">Procedimiento</th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                        @FILASAFECCIONES
+
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+
+        <tr><td colspan="3" height="30"></td></tr>
+
+        <tr>
+            <td colspan="4" class="border">
+                <h4 style="margin-top: 0;">DETALLES MEDICOS</h4>
+                <table style="width:100%;">
+                    <thead>
+                        <tr>
+                            <th style="text-align:left; font-size:15px; width:250px;">¿Padece Alergias?</th>
+                            <th style="text-align:left; font-size:15px; width:250px;">¿Permite Actividad Fisica?</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="text-align:left; font-size:15px; width:250px;">@alergias</td>
+                            <td style="text-align:left; font-size:15px; width:250px;">@fisica</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </td>
+        </tr>
+
+    </table>
+</body>
+</html>

@@ -1,0 +1,2184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>CS_Proyecto</RootNamespace>
+    <AssemblyName>CS_Proyecto</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BCrypt.Net, Version=0.1.4141.31969, Culture=neutral, PublicKeyToken=f3bc8f8c31beeb49, processorArchitecture=MSIL">
+      <HintPath>..\packages\BCrypt.Net.0.1.0\lib\net35\BCrypt.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="BouncyCastle.Crypto, Version=1.8.9.0, Culture=neutral, PublicKeyToken=0e99375e54769942">
+      <HintPath>..\packages\BouncyCastle.1.8.9\lib\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="BouncyCastle.Cryptography, Version=2.0.0.0, Culture=neutral, PublicKeyToken=072edcf4a5328938, processorArchitecture=MSIL">
+      <HintPath>..\packages\BouncyCastle.Cryptography.2.2.1\lib\net461\BouncyCastle.Cryptography.dll</HintPath>
+    </Reference>
+    <Reference Include="Guna.UI2">
+      <HintPath>E:\ColegioSalarrue\Guna UI Framework Ultimate v2.0.0.1 Lib-Master\Guna.UI2 WinForms\.net 2.0\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp, Version=5.5.13.3, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\iTextSharp.5.5.13.3\lib\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp.xmlworker, Version=5.5.13.3, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\itextsharp.xmlworker.5.5.13.3\lib\itextsharp.xmlworker.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="MimeKit, Version=4.2.0.0, Culture=neutral, PublicKeyToken=bede1c8a46c66814, processorArchitecture=MSIL">
+      <HintPath>..\packages\MimeKit.4.2.0\lib\net47\MimeKit.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SqlClient, Version=4.6.1.5, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SqlClient.4.8.5\lib\net461\System.Data.SqlClient.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Formats.Asn1, Version=7.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Formats.Asn1.7.0.0\lib\net462\System.Formats.Asn1.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Management" />
+    <Reference Include="System.Memory, Version=4.0.1.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.5.5\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.6.0.0\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security" />
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ValueTuple.4.5.0\lib\net47\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Transitions, Version=1.2.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\dot-net-transitions.1.2.1.0\lib\net40-full\Transitions.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Atributos\Atributos_Dashboard.cs" />
+    <Compile Include="Atributos\Atributos_Dashboard_Docente.cs" />
+    <Compile Include="Atributos\Atributos_Empleado.cs" />
+    <Compile Include="Atributos\Atributos_MensajesFuncionales.cs" />
+    <Compile Include="Atributos\Atributos_RecuperarContraseña.cs" />
+    <Compile Include="Atributos\Atributos_Reportes.cs" />
+    <Compile Include="Atributos\Atributos_seccion.cs" />
+    <Compile Include="Atributos\Atributos_Usuarios.cs" />
+    <Compile Include="CapaDatos\CD_Alumnos.cs" />
+    <Compile Include="CapaDatos\CD_Dashboard.cs" />
+    <Compile Include="CapaDatos\CD_DatosInactivos.cs" />
+    <Compile Include="CapaDatos\CD_Empleados.cs" />
+    <Compile Include="CapaDatos\CD_Login.cs" />
+    <Compile Include="CapaDatos\CD_Perfil.cs" />
+    <Compile Include="CapaDatos\CD_reportes.cs" />
+    <Compile Include="CapaDatos\CD_RestablecerContraseña.cs" />
+    <Compile Include="CapaDatos\CD_secciones.cs" />
+    <Compile Include="CapaDatos\CD_Usuariuos.cs" />
+    <Compile Include="CapaDatos\Conexion.cs" />
+    <Compile Include="Atributos\Atributos_Alumno.cs" />
+    <Compile Include="CapaNegocio\CN_Alumnos.cs" />
+    <Compile Include="Atributos\Atributos_Login.cs" />
+    <Compile Include="CapaNegocio\CN_Dashboard.cs" />
+    <Compile Include="CapaNegocio\CN_DatosInactivos.cs" />
+    <Compile Include="CapaNegocio\CN_Empleado.cs" />
+    <Compile Include="CapaNegocio\CN_Perfil.cs" />
+    <Compile Include="CapaNegocio\CN_secciones.cs" />
+    <Compile Include="CapaNegocio\CN_Usuarios.cs" />
+    <Compile Include="CapaNegocio\CP_Login.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Alertas\Campos_sin_completar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Alertas\Campos_sin_completar.Designer.cs">
+      <DependentUpon>Campos_sin_completar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Alertas\InstitucionAgregada.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Alertas\InstitucionAgregada.Designer.cs">
+      <DependentUpon>InstitucionAgregada.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Alertas\Registro_exitoso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Alertas\Registro_exitoso.Designer.cs">
+      <DependentUpon>Registro_exitoso.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Alertas\Registro_modificado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Alertas\Registro_modificado.Designer.cs">
+      <DependentUpon>Registro_modificado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Alertas\Seguro_de_cancelar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Alertas\Seguro_de_cancelar.Designer.cs">
+      <DependentUpon>Seguro_de_cancelar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Alertas\Seleccionar_tipo_busqueda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Alertas\Seleccionar_tipo_busqueda.Designer.cs">
+      <DependentUpon>Seleccionar_tipo_busqueda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Alertas\Usuario_no_encontrado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Alertas\Usuario_no_encontrado.Designer.cs">
+      <DependentUpon>Usuario_no_encontrado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Aplicacion\ContainerApp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Aplicacion\ContainerApp.Designer.cs">
+      <DependentUpon>ContainerApp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\ClasesVista\AñadirBotonParaTablas.cs" />
+    <Compile Include="Vistas\ClasesVista\DUI.cs" />
+    <Compile Include="Vistas\ClasesVista\LimpiarVariables.cs" />
+    <Compile Include="Vistas\ClasesVista\NavegarEntreFormularios.cs" />
+    <Compile Include="Vistas\ClasesVista\OscurecerFondo.cs" />
+    <Compile Include="Vistas\ClasesVista\RestaurarVariables.cs" />
+    <Compile Include="Vistas\ClasesVista\ValidarCampos.cs" />
+    <Compile Include="Vistas\Dashboard\Dashboard_controles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Dashboard\Dashboard_controles.Designer.cs">
+      <DependentUpon>Dashboard_controles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Dashboard\Dashboard_Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Dashboard\Dashboard_Main.Designer.cs">
+      <DependentUpon>Dashboard_Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Dashboard\EstadisticaCompleta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Dashboard\EstadisticaCompleta.Designer.cs">
+      <DependentUpon>EstadisticaCompleta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Datos Inactivos\Alumnos_inactivos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Datos Inactivos\Alumnos_inactivos.Designer.cs">
+      <DependentUpon>Alumnos_inactivos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Datos Inactivos\Controles_datos_inactivos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Datos Inactivos\Controles_datos_inactivos.Designer.cs">
+      <DependentUpon>Controles_datos_inactivos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Datos Inactivos\Docentes_inactivos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Datos Inactivos\Docentes_inactivos.Designer.cs">
+      <DependentUpon>Docentes_inactivos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Datos Inactivos\Usuarios_inactivos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Datos Inactivos\Usuarios_inactivos.Designer.cs">
+      <DependentUpon>Usuarios_inactivos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Desactivar Alumnos\Desactivacion_part1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Desactivar Alumnos\Desactivacion_part1.Designer.cs">
+      <DependentUpon>Desactivacion_part1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Desactivar Alumnos\Desactivacion_part2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Desactivar Alumnos\Desactivacion_part2.Designer.cs">
+      <DependentUpon>Desactivacion_part2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Desactivar Alumnos\Desactivacion_part3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Desactivar Alumnos\Desactivacion_part3.Designer.cs">
+      <DependentUpon>Desactivacion_part3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Desactivar Alumnos\Desactivacion_part4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Desactivar Alumnos\Desactivacion_part4.Designer.cs">
+      <DependentUpon>Desactivacion_part4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Desactivar Alumnos\Desactivacion_part5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Desactivar Alumnos\Desactivacion_part5.Designer.cs">
+      <DependentUpon>Desactivacion_part5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Desactivar Alumnos\Desactivacion_part6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Desactivar Alumnos\Desactivacion_part6.Designer.cs">
+      <DependentUpon>Desactivacion_part6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Desarrolladores\DesarrolladoresInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Desarrolladores\DesarrolladoresInfo.Designer.cs">
+      <DependentUpon>DesarrolladoresInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Docentes\AgregarAfecciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Docentes\AgregarAfecciones.Designer.cs">
+      <DependentUpon>AgregarAfecciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Docentes\AgregarCargosMateriasEspecialidades_Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Docentes\AgregarCargosMateriasEspecialidades_Main.Designer.cs">
+      <DependentUpon>AgregarCargosMateriasEspecialidades_Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Docentes\AgregarDetalles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Docentes\AgregarDetalles.Designer.cs">
+      <DependentUpon>AgregarDetalles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Docentes\AgregarMedicamentos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Docentes\AgregarMedicamentos.Designer.cs">
+      <DependentUpon>AgregarMedicamentos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Docentes\Agregar_Docentes_Datos_Personales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Docentes\Agregar_Docentes_Datos_Personales.Designer.cs">
+      <DependentUpon>Agregar_Docentes_Datos_Personales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Docentes\Agregar_Docente_cargos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Docentes\Agregar_Docente_cargos.Designer.cs">
+      <DependentUpon>Agregar_Docente_cargos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Docentes\Agregar_Docente_Identificacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Docentes\Agregar_Docente_Identificacion.Designer.cs">
+      <DependentUpon>Agregar_Docente_Identificacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Docentes\Agregar_Docente_Informacion_Medica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Docentes\Agregar_Docente_Informacion_Medica.Designer.cs">
+      <DependentUpon>Agregar_Docente_Informacion_Medica.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Docentes\Agregar_Docente_Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Docentes\Agregar_Docente_Main.Designer.cs">
+      <DependentUpon>Agregar_Docente_Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Docentes\Agregar_Docente_Residencia_Contacto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Docentes\Agregar_Docente_Residencia_Contacto.Designer.cs">
+      <DependentUpon>Agregar_Docente_Residencia_Contacto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Docentes\Agregar_materias_docentes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Docentes\Agregar_materias_docentes.Designer.cs">
+      <DependentUpon>Agregar_materias_docentes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Docentes\Cargos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Docentes\Cargos.Designer.cs">
+      <DependentUpon>Cargos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Docentes\Dashboard_Docente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Docentes\Dashboard_Docente.Designer.cs">
+      <DependentUpon>Dashboard_Docente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Docentes\EspecialidadesDocentes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Docentes\EspecialidadesDocentes.Designer.cs">
+      <DependentUpon>EspecialidadesDocentes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Docentes\Informacion_Medica_Docentes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Docentes\Informacion_Medica_Docentes.Designer.cs">
+      <DependentUpon>Informacion_Medica_Docentes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Docentes\MantenimientoDocentes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Docentes\MantenimientoDocentes.Designer.cs">
+      <DependentUpon>MantenimientoDocentes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Docentes\Materias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Docentes\Materias.Designer.cs">
+      <DependentUpon>Materias.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Docentes\Agregar_Docente_Especialidades.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Docentes\Agregar_Docente_Especialidades.Designer.cs">
+      <DependentUpon>Agregar_Docente_Especialidades.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Docentes\Modificar\ModificarDocenteMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Docentes\Modificar\ModificarDocenteMain.Designer.cs">
+      <DependentUpon>ModificarDocenteMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Docentes\Modificar\Modificar_Afecciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Docentes\Modificar\Modificar_Afecciones.Designer.cs">
+      <DependentUpon>Modificar_Afecciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Docentes\Modificar\Modificar_Detalles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Docentes\Modificar\Modificar_Detalles.Designer.cs">
+      <DependentUpon>Modificar_Detalles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Docentes\Modificar\Modificar_Informacion_Medica_Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Docentes\Modificar\Modificar_Informacion_Medica_Main.Designer.cs">
+      <DependentUpon>Modificar_Informacion_Medica_Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Docentes\Modificar\Modificar_Medicamentos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Docentes\Modificar\Modificar_Medicamentos.Designer.cs">
+      <DependentUpon>Modificar_Medicamentos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Docentes\Modificar_O_Eliminar_Docente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Docentes\Modificar_O_Eliminar_Docente.Designer.cs">
+      <DependentUpon>Modificar_O_Eliminar_Docente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Docentes\Nivel_estudio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Docentes\Nivel_estudio.Designer.cs">
+      <DependentUpon>Nivel_estudio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Editar Matricula\Afecciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Editar Matricula\Afecciones.Designer.cs">
+      <DependentUpon>Afecciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Editar Matricula\Detalles_Medicos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Editar Matricula\Detalles_Medicos.Designer.cs">
+      <DependentUpon>Detalles_Medicos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Editar Matricula\Editar_main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Editar Matricula\Editar_main.Designer.cs">
+      <DependentUpon>Editar_main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Editar Matricula\Editar_matricula.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Editar Matricula\Editar_matricula.Designer.cs">
+      <DependentUpon>Editar_matricula.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Editar Matricula\Editar_Medicamentos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Editar Matricula\Editar_Medicamentos.Designer.cs">
+      <DependentUpon>Editar_Medicamentos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Editar Matricula\Medicamentos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Editar Matricula\Medicamentos.Designer.cs">
+      <DependentUpon>Medicamentos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Formas de pago\FormasPago.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Formas de pago\FormasPago.Designer.cs">
+      <DependentUpon>FormasPago.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Formulario Matricula\Agregar_Afecciones_alumno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Formulario Matricula\Agregar_Afecciones_alumno.designer.cs">
+      <DependentUpon>Agregar_Afecciones_alumno.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Formulario Matricula\Agregar_Informacion_medica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Formulario Matricula\Agregar_Informacion_medica.designer.cs">
+      <DependentUpon>Agregar_Informacion_medica.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Formulario Matricula\Agregar_medicamentos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Formulario Matricula\Agregar_medicamentos.Designer.cs">
+      <DependentUpon>Agregar_medicamentos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Formulario Matricula\Comprobante_main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Formulario Matricula\Comprobante_main.Designer.cs">
+      <DependentUpon>Comprobante_main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Formulario Matricula\Consulta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Formulario Matricula\Consulta.Designer.cs">
+      <DependentUpon>Consulta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Formulario Matricula\Datos_complementarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Formulario Matricula\Datos_complementarios.Designer.cs">
+      <DependentUpon>Datos_complementarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Formulario Matricula\Datos_personales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Formulario Matricula\Datos_personales.Designer.cs">
+      <DependentUpon>Datos_personales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Formulario Matricula\Identificacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Formulario Matricula\Identificacion.Designer.cs">
+      <DependentUpon>Identificacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Formulario Matricula\Matricula_main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Formulario Matricula\Matricula_main.Designer.cs">
+      <DependentUpon>Matricula_main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Formulario Matricula\Pago_matricula.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Formulario Matricula\Pago_matricula.Designer.cs">
+      <DependentUpon>Pago_matricula.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Formulario Matricula\RecursosTecnologicos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Formulario Matricula\RecursosTecnologicos.Designer.cs">
+      <DependentUpon>RecursosTecnologicos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Formulario Matricula\Residencia_contacto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Formulario Matricula\Residencia_contacto.Designer.cs">
+      <DependentUpon>Residencia_contacto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Formulario Matricula\Responsable_principal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Formulario Matricula\Responsable_principal.Designer.cs">
+      <DependentUpon>Responsable_principal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Formulario Matricula\Responsable_secundario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Formulario Matricula\Responsable_secundario.Designer.cs">
+      <DependentUpon>Responsable_secundario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Formulario Matricula\Situacion_familiar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Formulario Matricula\Situacion_familiar.Designer.cs">
+      <DependentUpon>Situacion_familiar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Formulario Matricula\Target_seccion_medica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Formulario Matricula\Target_seccion_medica.Designer.cs">
+      <DependentUpon>Target_seccion_medica.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Informacion Medica\Controles_info_medica_main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Informacion Medica\Controles_info_medica_main.designer.cs">
+      <DependentUpon>Controles_info_medica_main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Informacion Medica\Ventana_Afecciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Informacion Medica\Ventana_Afecciones.Designer.cs">
+      <DependentUpon>Ventana_Afecciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Informacion Medica\Ventana_Medicamento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Informacion Medica\Ventana_Medicamento.Designer.cs">
+      <DependentUpon>Ventana_Medicamento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Instituciones\Instituciones_Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Instituciones\Instituciones_Main.Designer.cs">
+      <DependentUpon>Instituciones_Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Letra de Pago\Letra_de_pago_main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Letra de Pago\Letra_de_pago_main.Designer.cs">
+      <DependentUpon>Letra_de_pago_main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Login\Login_main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Login\Login_main.Designer.cs">
+      <DependentUpon>Login_main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Mantenimiento\Mantenimiento_sistema.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Mantenimiento\Mantenimiento_sistema.Designer.cs">
+      <DependentUpon>Mantenimiento_sistema.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Mensajes Funcionales\AgregadoEditadoSeccion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Mensajes Funcionales\AgregadoEditadoSeccion.Designer.cs">
+      <DependentUpon>AgregadoEditadoSeccion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Mensajes Funcionales\AgregarInfoMedicaDocente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Mensajes Funcionales\AgregarInfoMedicaDocente.Designer.cs">
+      <DependentUpon>AgregarInfoMedicaDocente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Mensajes Funcionales\AlumnoModificado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Mensajes Funcionales\AlumnoModificado.Designer.cs">
+      <DependentUpon>AlumnoModificado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Mensajes Funcionales\CancelarComprobante.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Mensajes Funcionales\CancelarComprobante.Designer.cs">
+      <DependentUpon>CancelarComprobante.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Mensajes Funcionales\CancelarEmpleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Mensajes Funcionales\CancelarEmpleado.Designer.cs">
+      <DependentUpon>CancelarEmpleado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Mensajes Funcionales\CancelarRegistroUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Mensajes Funcionales\CancelarRegistroUsuario.Designer.cs">
+      <DependentUpon>CancelarRegistroUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Mensajes Funcionales\CancelarSeccion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Mensajes Funcionales\CancelarSeccion.Designer.cs">
+      <DependentUpon>CancelarSeccion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Mensajes Funcionales\Cancelar_matricula.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Mensajes Funcionales\Cancelar_matricula.Designer.cs">
+      <DependentUpon>Cancelar_matricula.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Mensajes Funcionales\ComprobanteGuardado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Mensajes Funcionales\ComprobanteGuardado.Designer.cs">
+      <DependentUpon>ComprobanteGuardado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Mensajes Funcionales\DetallesGuardados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Mensajes Funcionales\DetallesGuardados.Designer.cs">
+      <DependentUpon>DetallesGuardados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Mensajes Funcionales\EliminarAfeccionDocente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Mensajes Funcionales\EliminarAfeccionDocente.Designer.cs">
+      <DependentUpon>EliminarAfeccionDocente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Mensajes Funcionales\EliminarAfeccionAlumno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Mensajes Funcionales\EliminarAfeccionAlumno.Designer.cs">
+      <DependentUpon>EliminarAfeccionAlumno.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Mensajes Funcionales\EliminarMedicamentoAlumno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Mensajes Funcionales\EliminarMedicamentoAlumno.Designer.cs">
+      <DependentUpon>EliminarMedicamentoAlumno.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Mensajes Funcionales\EliminarMedicamentoDocente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Mensajes Funcionales\EliminarMedicamentoDocente.Designer.cs">
+      <DependentUpon>EliminarMedicamentoDocente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Mensajes Funcionales\EmpleadoGuardado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Mensajes Funcionales\EmpleadoGuardado.Designer.cs">
+      <DependentUpon>EmpleadoGuardado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Mensajes Funcionales\EmpleadoRegistradoPart1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Mensajes Funcionales\EmpleadoRegistradoPart1.Designer.cs">
+      <DependentUpon>EmpleadoRegistradoPart1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Mensajes Funcionales\FaltaCompletarNIE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Mensajes Funcionales\FaltaCompletarNIE.Designer.cs">
+      <DependentUpon>FaltaCompletarNIE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Mensajes Funcionales\FechaMayorALaActual.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Mensajes Funcionales\FechaMayorALaActual.Designer.cs">
+      <DependentUpon>FechaMayorALaActual.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Mensajes Funcionales\InformacionMedicaGuardada.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Mensajes Funcionales\InformacionMedicaGuardada.Designer.cs">
+      <DependentUpon>InformacionMedicaGuardada.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Mensajes Funcionales\InforMedicaAdicionalDocente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Mensajes Funcionales\InforMedicaAdicionalDocente.Designer.cs">
+      <DependentUpon>InforMedicaAdicionalDocente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Mensajes Funcionales\MateriaAgregada.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Mensajes Funcionales\MateriaAgregada.Designer.cs">
+      <DependentUpon>MateriaAgregada.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Mensajes Funcionales\MedicamentoGuardado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Mensajes Funcionales\MedicamentoGuardado.Designer.cs">
+      <DependentUpon>MedicamentoGuardado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Mensajes Funcionales\NuevaNacionalidad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Mensajes Funcionales\NuevaNacionalidad.Designer.cs">
+      <DependentUpon>NuevaNacionalidad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Mensajes Funcionales\Nueva_especialidad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Mensajes Funcionales\Nueva_especialidad.Designer.cs">
+      <DependentUpon>Nueva_especialidad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Mensajes Funcionales\Nueva_Institucion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Mensajes Funcionales\Nueva_Institucion.Designer.cs">
+      <DependentUpon>Nueva_Institucion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Mensajes Funcionales\Nueva_Materia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Mensajes Funcionales\Nueva_Materia.Designer.cs">
+      <DependentUpon>Nueva_Materia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Mensajes Funcionales\Nuevo_cargo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Mensajes Funcionales\Nuevo_cargo.Designer.cs">
+      <DependentUpon>Nuevo_cargo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Mensajes Funcionales\Nuevo_nie_temporal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Mensajes Funcionales\Nuevo_nie_temporal.Designer.cs">
+      <DependentUpon>Nuevo_nie_temporal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Mensajes Funcionales\Nuevo_nivel_estudio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Mensajes Funcionales\Nuevo_nivel_estudio.Designer.cs">
+      <DependentUpon>Nuevo_nivel_estudio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Mensajes Funcionales\PerfilEditado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Mensajes Funcionales\PerfilEditado.Designer.cs">
+      <DependentUpon>PerfilEditado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Mensajes Funcionales\RegistroCompletoAlumno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Mensajes Funcionales\RegistroCompletoAlumno.Designer.cs">
+      <DependentUpon>RegistroCompletoAlumno.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Mensajes Funcionales\RegistroCompletoDocente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Mensajes Funcionales\RegistroCompletoDocente.Designer.cs">
+      <DependentUpon>RegistroCompletoDocente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Mensajes Funcionales\RegistroEditado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Mensajes Funcionales\RegistroEditado.Designer.cs">
+      <DependentUpon>RegistroEditado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Mensajes Funcionales\RegistroExistente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Mensajes Funcionales\RegistroExistente.Designer.cs">
+      <DependentUpon>RegistroExistente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Mensajes Funcionales\RegistroGuardado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Mensajes Funcionales\RegistroGuardado.Designer.cs">
+      <DependentUpon>RegistroGuardado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Mensajes Funcionales\UsuarioAgregado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Mensajes Funcionales\UsuarioAgregado.Designer.cs">
+      <DependentUpon>UsuarioAgregado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Mensajes Funcionales\UsuarioEditado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Mensajes Funcionales\UsuarioEditado.Designer.cs">
+      <DependentUpon>UsuarioEditado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Mensajes Funcionales\UsuarioInactivo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Mensajes Funcionales\UsuarioInactivo.Designer.cs">
+      <DependentUpon>UsuarioInactivo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Mensajes Funcionales\IngresarCorreo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Mensajes Funcionales\IngresarCorreo.Designer.cs">
+      <DependentUpon>IngresarCorreo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Mensajes Funcionales\UsuarioNoEncontrado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Mensajes Funcionales\UsuarioNoEncontrado.Designer.cs">
+      <DependentUpon>UsuarioNoEncontrado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Mi Perfil\Editar_Perfil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Mi Perfil\Editar_Perfil.Designer.cs">
+      <DependentUpon>Editar_Perfil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Mi Perfil\ImgPerfil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Mi Perfil\ImgPerfil.Designer.cs">
+      <DependentUpon>ImgPerfil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Mi Perfil\Mi_perfil_main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Mi Perfil\Mi_perfil_main.Designer.cs">
+      <DependentUpon>Mi_perfil_main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Modo Nocturno\Modo_nocturno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Modo Nocturno\Modo_nocturno.Designer.cs">
+      <DependentUpon>Modo_nocturno.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Nacionalidades\Nacionalidades.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Nacionalidades\Nacionalidades.Designer.cs">
+      <DependentUpon>Nacionalidades.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Nie Temporal\Nie_temporal_main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Nie Temporal\Nie_temporal_main.Designer.cs">
+      <DependentUpon>Nie_temporal_main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\OscurecerFondo\Fondo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\OscurecerFondo\Fondo.Designer.cs">
+      <DependentUpon>Fondo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\PagosTiposMatricula\PagosTiposMatricula.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\PagosTiposMatricula\PagosTiposMatricula.Designer.cs">
+      <DependentUpon>PagosTiposMatricula.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Pantalla de Carga\Pantalla_Carga.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Pantalla de Carga\Pantalla_Carga.Designer.cs">
+      <DependentUpon>Pantalla_Carga.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Reportes\Controles_Reportes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Reportes\Controles_Reportes.Designer.cs">
+      <DependentUpon>Controles_Reportes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Reportes\PaginaReporte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Reportes\PaginaReporte.Designer.cs">
+      <DependentUpon>PaginaReporte.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Reportes\PaginaReporteAlumnos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Reportes\PaginaReporteAlumnos.Designer.cs">
+      <DependentUpon>PaginaReporteAlumnos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Reportes\PaginaReporteDocentes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Reportes\PaginaReporteDocentes.Designer.cs">
+      <DependentUpon>PaginaReporteDocentes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Reportes\PaginaReportesSecciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Reportes\PaginaReportesSecciones.Designer.cs">
+      <DependentUpon>PaginaReportesSecciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Reportes\ReporteEmpleadoIndividual.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Reportes\ReporteEmpleadoIndividual.Designer.cs">
+      <DependentUpon>ReporteEmpleadoIndividual.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Reportes\ReporteIndividualAlumno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Reportes\ReporteIndividualAlumno.Designer.cs">
+      <DependentUpon>ReporteIndividualAlumno.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Reportes\ReporteSeccionIndividual.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Reportes\ReporteSeccionIndividual.Designer.cs">
+      <DependentUpon>ReporteSeccionIndividual.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Reportes\Reporte_alumnos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Reportes\Reporte_alumnos.Designer.cs">
+      <DependentUpon>Reporte_alumnos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Reportes\Reporte_docentes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Reportes\Reporte_docentes.Designer.cs">
+      <DependentUpon>Reporte_docentes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Reportes\Reporte_especialidades.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Reportes\Reporte_especialidades.Designer.cs">
+      <DependentUpon>Reporte_especialidades.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Reportes\reporte_materias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Reportes\reporte_materias.Designer.cs">
+      <DependentUpon>reporte_materias.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Reportes\Reporte_secciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Reportes\Reporte_secciones.Designer.cs">
+      <DependentUpon>Reporte_secciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Reportes\reporte_usuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Reportes\reporte_usuarios.Designer.cs">
+      <DependentUpon>reporte_usuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Reportes\UsuarioIndividual.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Reportes\UsuarioIndividual.Designer.cs">
+      <DependentUpon>UsuarioIndividual.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Reportes\VistaPreviaReporte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Reportes\VistaPreviaReporte.Designer.cs">
+      <DependentUpon>VistaPreviaReporte.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\RestablecerContraseña\Part1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\RestablecerContraseña\Part1.Designer.cs">
+      <DependentUpon>Part1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\RestablecerContraseña\Part2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\RestablecerContraseña\Part2.Designer.cs">
+      <DependentUpon>Part2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\RestablecerContraseña\Part3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\RestablecerContraseña\Part3.Designer.cs">
+      <DependentUpon>Part3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\RestablecerContraseña\Part4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\RestablecerContraseña\Part4.Designer.cs">
+      <DependentUpon>Part4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\RestablecerContraseña\RestablecerMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\RestablecerContraseña\RestablecerMain.Designer.cs">
+      <DependentUpon>RestablecerMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Secciones\Especialidades_Seccion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Secciones\Especialidades_Seccion.Designer.cs">
+      <DependentUpon>Especialidades_Seccion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Secciones\Modificar_Eliminar_Seccion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Secciones\Modificar_Eliminar_Seccion.Designer.cs">
+      <DependentUpon>Modificar_Eliminar_Seccion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Secciones\Nueva_Seccion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Secciones\Nueva_Seccion.Designer.cs">
+      <DependentUpon>Nueva_Seccion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Secciones\Nueva_seccion_main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Secciones\Nueva_seccion_main.Designer.cs">
+      <DependentUpon>Nueva_seccion_main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Secciones\Secciones_Inactivas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Secciones\Secciones_Inactivas.Designer.cs">
+      <DependentUpon>Secciones_Inactivas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Secciones\Seccion_Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Secciones\Seccion_Main.Designer.cs">
+      <DependentUpon>Seccion_Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Secciones\TipoSeccion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Secciones\TipoSeccion.Designer.cs">
+      <DependentUpon>TipoSeccion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Usuarios\Controles_Usuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Usuarios\Controles_Usuarios.Designer.cs">
+      <DependentUpon>Controles_Usuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Usuarios\Datos_Personales_Usuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Usuarios\Datos_Personales_Usuarios.Designer.cs">
+      <DependentUpon>Datos_Personales_Usuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Usuarios\Datos_Usuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Usuarios\Datos_Usuarios.Designer.cs">
+      <DependentUpon>Datos_Usuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Usuarios\Editar_Usuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Usuarios\Editar_Usuario.Designer.cs">
+      <DependentUpon>Editar_Usuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Usuarios\FotoPerfil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Usuarios\FotoPerfil.Designer.cs">
+      <DependentUpon>FotoPerfil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Usuarios\Nuevo_Usuario_Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Usuarios\Nuevo_Usuario_Main.Designer.cs">
+      <DependentUpon>Nuevo_Usuario_Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Usuarios\Privilegios_Estados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Usuarios\Privilegios_Estados.Designer.cs">
+      <DependentUpon>Privilegios_Estados.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources1.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Alertas\Campos_sin_completar.resx">
+      <DependentUpon>Campos_sin_completar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Alertas\InstitucionAgregada.resx">
+      <DependentUpon>InstitucionAgregada.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Alertas\Registro_exitoso.resx">
+      <DependentUpon>Registro_exitoso.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Alertas\Registro_modificado.resx">
+      <DependentUpon>Registro_modificado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Alertas\Seguro_de_cancelar.resx">
+      <DependentUpon>Seguro_de_cancelar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Alertas\Seleccionar_tipo_busqueda.resx">
+      <DependentUpon>Seleccionar_tipo_busqueda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Alertas\Usuario_no_encontrado.resx">
+      <DependentUpon>Usuario_no_encontrado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Aplicacion\ContainerApp.resx">
+      <DependentUpon>ContainerApp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Dashboard\Dashboard_controles.resx">
+      <DependentUpon>Dashboard_controles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Dashboard\Dashboard_Main.resx">
+      <DependentUpon>Dashboard_Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Dashboard\EstadisticaCompleta.resx">
+      <DependentUpon>EstadisticaCompleta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Datos Inactivos\Alumnos_inactivos.resx">
+      <DependentUpon>Alumnos_inactivos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Datos Inactivos\Controles_datos_inactivos.resx">
+      <DependentUpon>Controles_datos_inactivos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Datos Inactivos\Docentes_inactivos.resx">
+      <DependentUpon>Docentes_inactivos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Datos Inactivos\Usuarios_inactivos.resx">
+      <DependentUpon>Usuarios_inactivos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Desactivar Alumnos\Desactivacion_part1.resx">
+      <DependentUpon>Desactivacion_part1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Desactivar Alumnos\Desactivacion_part2.resx">
+      <DependentUpon>Desactivacion_part2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Desactivar Alumnos\Desactivacion_part3.resx">
+      <DependentUpon>Desactivacion_part3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Desactivar Alumnos\Desactivacion_part4.resx">
+      <DependentUpon>Desactivacion_part4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Desactivar Alumnos\Desactivacion_part5.resx">
+      <DependentUpon>Desactivacion_part5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Desactivar Alumnos\Desactivacion_part6.resx">
+      <DependentUpon>Desactivacion_part6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Desarrolladores\DesarrolladoresInfo.resx">
+      <DependentUpon>DesarrolladoresInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Docentes\AgregarAfecciones.resx">
+      <DependentUpon>AgregarAfecciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Docentes\AgregarCargosMateriasEspecialidades_Main.resx">
+      <DependentUpon>AgregarCargosMateriasEspecialidades_Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Docentes\AgregarDetalles.resx">
+      <DependentUpon>AgregarDetalles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Docentes\AgregarMedicamentos.resx">
+      <DependentUpon>AgregarMedicamentos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Docentes\Agregar_Docentes_Datos_Personales.resx">
+      <DependentUpon>Agregar_Docentes_Datos_Personales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Docentes\Agregar_Docente_cargos.resx">
+      <DependentUpon>Agregar_Docente_cargos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Docentes\Agregar_Docente_Identificacion.resx">
+      <DependentUpon>Agregar_Docente_Identificacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Docentes\Agregar_Docente_Informacion_Medica.resx">
+      <DependentUpon>Agregar_Docente_Informacion_Medica.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Docentes\Agregar_Docente_Main.resx">
+      <DependentUpon>Agregar_Docente_Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Docentes\Agregar_Docente_Residencia_Contacto.resx">
+      <DependentUpon>Agregar_Docente_Residencia_Contacto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Docentes\Agregar_materias_docentes.resx">
+      <DependentUpon>Agregar_materias_docentes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Docentes\Cargos.resx">
+      <DependentUpon>Cargos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Docentes\Dashboard_Docente.resx">
+      <DependentUpon>Dashboard_Docente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Docentes\EspecialidadesDocentes.resx">
+      <DependentUpon>EspecialidadesDocentes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Docentes\Informacion_Medica_Docentes.resx">
+      <DependentUpon>Informacion_Medica_Docentes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Docentes\MantenimientoDocentes.resx">
+      <DependentUpon>MantenimientoDocentes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Docentes\Materias.resx">
+      <DependentUpon>Materias.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Docentes\Agregar_Docente_Especialidades.resx">
+      <DependentUpon>Agregar_Docente_Especialidades.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Docentes\Modificar\ModificarDocenteMain.resx">
+      <DependentUpon>ModificarDocenteMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Docentes\Modificar\Modificar_Afecciones.resx">
+      <DependentUpon>Modificar_Afecciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Docentes\Modificar\Modificar_Detalles.resx">
+      <DependentUpon>Modificar_Detalles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Docentes\Modificar\Modificar_Informacion_Medica_Main.resx">
+      <DependentUpon>Modificar_Informacion_Medica_Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Docentes\Modificar\Modificar_Medicamentos.resx">
+      <DependentUpon>Modificar_Medicamentos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Docentes\Modificar_O_Eliminar_Docente.resx">
+      <DependentUpon>Modificar_O_Eliminar_Docente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Docentes\Nivel_estudio.resx">
+      <DependentUpon>Nivel_estudio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Editar Matricula\Afecciones.resx">
+      <DependentUpon>Afecciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Editar Matricula\Detalles_Medicos.resx">
+      <DependentUpon>Detalles_Medicos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Editar Matricula\Editar_main.resx">
+      <DependentUpon>Editar_main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Editar Matricula\Editar_matricula.resx">
+      <DependentUpon>Editar_matricula.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Editar Matricula\Editar_Medicamentos.resx">
+      <DependentUpon>Editar_Medicamentos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Editar Matricula\Medicamentos.resx">
+      <DependentUpon>Medicamentos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Formas de pago\FormasPago.resx">
+      <DependentUpon>FormasPago.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Formulario Matricula\Agregar_Afecciones_alumno.resx">
+      <DependentUpon>Agregar_Afecciones_alumno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Formulario Matricula\Agregar_Informacion_medica.resx">
+      <DependentUpon>Agregar_Informacion_medica.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Formulario Matricula\Agregar_medicamentos.resx">
+      <DependentUpon>Agregar_medicamentos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Formulario Matricula\Comprobante_main.resx">
+      <DependentUpon>Comprobante_main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Formulario Matricula\Consulta.resx">
+      <DependentUpon>Consulta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Formulario Matricula\Datos_complementarios.resx">
+      <DependentUpon>Datos_complementarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Formulario Matricula\Datos_personales.resx">
+      <DependentUpon>Datos_personales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Formulario Matricula\Identificacion.resx">
+      <DependentUpon>Identificacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Formulario Matricula\Matricula_main.resx">
+      <DependentUpon>Matricula_main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Formulario Matricula\Pago_matricula.resx">
+      <DependentUpon>Pago_matricula.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Formulario Matricula\RecursosTecnologicos.resx">
+      <DependentUpon>RecursosTecnologicos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Formulario Matricula\Residencia_contacto.resx">
+      <DependentUpon>Residencia_contacto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Formulario Matricula\Responsable_principal.resx">
+      <DependentUpon>Responsable_principal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Formulario Matricula\Responsable_secundario.resx">
+      <DependentUpon>Responsable_secundario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Formulario Matricula\Situacion_familiar.resx">
+      <DependentUpon>Situacion_familiar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Formulario Matricula\Target_seccion_medica.resx">
+      <DependentUpon>Target_seccion_medica.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Informacion Medica\Controles_info_medica_main.resx">
+      <DependentUpon>Controles_info_medica_main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Informacion Medica\Ventana_Afecciones.resx">
+      <DependentUpon>Ventana_Afecciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Informacion Medica\Ventana_Medicamento.resx">
+      <DependentUpon>Ventana_Medicamento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Instituciones\Instituciones_Main.resx">
+      <DependentUpon>Instituciones_Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Letra de Pago\Letra_de_pago_main.resx">
+      <DependentUpon>Letra_de_pago_main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Login\Login_main.resx">
+      <DependentUpon>Login_main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Mantenimiento\Mantenimiento_sistema.resx">
+      <DependentUpon>Mantenimiento_sistema.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Mensajes Funcionales\AgregadoEditadoSeccion.resx">
+      <DependentUpon>AgregadoEditadoSeccion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Mensajes Funcionales\AgregarInfoMedicaDocente.resx">
+      <DependentUpon>AgregarInfoMedicaDocente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Mensajes Funcionales\AlumnoModificado.resx">
+      <DependentUpon>AlumnoModificado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Mensajes Funcionales\CancelarComprobante.resx">
+      <DependentUpon>CancelarComprobante.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Mensajes Funcionales\CancelarEmpleado.resx">
+      <DependentUpon>CancelarEmpleado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Mensajes Funcionales\CancelarRegistroUsuario.resx">
+      <DependentUpon>CancelarRegistroUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Mensajes Funcionales\CancelarSeccion.resx">
+      <DependentUpon>CancelarSeccion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Mensajes Funcionales\Cancelar_matricula.resx">
+      <DependentUpon>Cancelar_matricula.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Mensajes Funcionales\ComprobanteGuardado.resx">
+      <DependentUpon>ComprobanteGuardado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Mensajes Funcionales\DetallesGuardados.resx">
+      <DependentUpon>DetallesGuardados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Mensajes Funcionales\EliminarAfeccionDocente.resx">
+      <DependentUpon>EliminarAfeccionDocente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Mensajes Funcionales\EliminarAfeccionAlumno.resx">
+      <DependentUpon>EliminarAfeccionAlumno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Mensajes Funcionales\EliminarMedicamentoAlumno.resx">
+      <DependentUpon>EliminarMedicamentoAlumno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Mensajes Funcionales\EliminarMedicamentoDocente.resx">
+      <DependentUpon>EliminarMedicamentoDocente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Mensajes Funcionales\EmpleadoGuardado.resx">
+      <DependentUpon>EmpleadoGuardado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Mensajes Funcionales\EmpleadoRegistradoPart1.resx">
+      <DependentUpon>EmpleadoRegistradoPart1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Mensajes Funcionales\FaltaCompletarNIE.resx">
+      <DependentUpon>FaltaCompletarNIE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Mensajes Funcionales\FechaMayorALaActual.resx">
+      <DependentUpon>FechaMayorALaActual.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Mensajes Funcionales\InformacionMedicaGuardada.resx">
+      <DependentUpon>InformacionMedicaGuardada.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Mensajes Funcionales\InforMedicaAdicionalDocente.resx">
+      <DependentUpon>InforMedicaAdicionalDocente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Mensajes Funcionales\MateriaAgregada.resx">
+      <DependentUpon>MateriaAgregada.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Mensajes Funcionales\MedicamentoGuardado.resx">
+      <DependentUpon>MedicamentoGuardado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Mensajes Funcionales\NuevaNacionalidad.resx">
+      <DependentUpon>NuevaNacionalidad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Mensajes Funcionales\Nueva_especialidad.resx">
+      <DependentUpon>Nueva_especialidad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Mensajes Funcionales\Nueva_Institucion.resx">
+      <DependentUpon>Nueva_Institucion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Mensajes Funcionales\Nueva_Materia.resx">
+      <DependentUpon>Nueva_Materia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Mensajes Funcionales\Nuevo_cargo.resx">
+      <DependentUpon>Nuevo_cargo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Mensajes Funcionales\Nuevo_nie_temporal.resx">
+      <DependentUpon>Nuevo_nie_temporal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Mensajes Funcionales\Nuevo_nivel_estudio.resx">
+      <DependentUpon>Nuevo_nivel_estudio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Mensajes Funcionales\PerfilEditado.resx">
+      <DependentUpon>PerfilEditado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Mensajes Funcionales\RegistroCompletoAlumno.resx">
+      <DependentUpon>RegistroCompletoAlumno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Mensajes Funcionales\RegistroCompletoDocente.resx">
+      <DependentUpon>RegistroCompletoDocente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Mensajes Funcionales\RegistroEditado.resx">
+      <DependentUpon>RegistroEditado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Mensajes Funcionales\RegistroExistente.resx">
+      <DependentUpon>RegistroExistente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Mensajes Funcionales\RegistroGuardado.resx">
+      <DependentUpon>RegistroGuardado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Mensajes Funcionales\UsuarioAgregado.resx">
+      <DependentUpon>UsuarioAgregado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Mensajes Funcionales\UsuarioEditado.resx">
+      <DependentUpon>UsuarioEditado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Mensajes Funcionales\UsuarioInactivo.resx">
+      <DependentUpon>UsuarioInactivo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Mensajes Funcionales\IngresarCorreo.resx">
+      <DependentUpon>IngresarCorreo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Mensajes Funcionales\UsuarioNoEncontrado.resx">
+      <DependentUpon>UsuarioNoEncontrado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Mi Perfil\Editar_Perfil.resx">
+      <DependentUpon>Editar_Perfil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Mi Perfil\ImgPerfil.resx">
+      <DependentUpon>ImgPerfil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Mi Perfil\Mi_perfil_main.resx">
+      <DependentUpon>Mi_perfil_main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Modo Nocturno\Modo_nocturno.resx">
+      <DependentUpon>Modo_nocturno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Nacionalidades\Nacionalidades.resx">
+      <DependentUpon>Nacionalidades.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Nie Temporal\Nie_temporal_main.resx">
+      <DependentUpon>Nie_temporal_main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\PagosTiposMatricula\PagosTiposMatricula.resx">
+      <DependentUpon>PagosTiposMatricula.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Pantalla de Carga\Pantalla_Carga.resx">
+      <DependentUpon>Pantalla_Carga.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Reportes\Controles_Reportes.resx">
+      <DependentUpon>Controles_Reportes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Reportes\PaginaReporte.resx">
+      <DependentUpon>PaginaReporte.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Reportes\PaginaReporteAlumnos.resx">
+      <DependentUpon>PaginaReporteAlumnos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Reportes\PaginaReporteDocentes.resx">
+      <DependentUpon>PaginaReporteDocentes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Reportes\PaginaReportesSecciones.resx">
+      <DependentUpon>PaginaReportesSecciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Reportes\ReporteEmpleadoIndividual.resx">
+      <DependentUpon>ReporteEmpleadoIndividual.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Reportes\ReporteIndividualAlumno.resx">
+      <DependentUpon>ReporteIndividualAlumno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Reportes\ReporteSeccionIndividual.resx">
+      <DependentUpon>ReporteSeccionIndividual.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Reportes\Reporte_alumnos.resx">
+      <DependentUpon>Reporte_alumnos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Reportes\Reporte_docentes.resx">
+      <DependentUpon>Reporte_docentes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Reportes\Reporte_secciones.resx">
+      <DependentUpon>Reporte_secciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Reportes\reporte_usuarios.resx">
+      <DependentUpon>reporte_usuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Reportes\UsuarioIndividual.resx">
+      <DependentUpon>UsuarioIndividual.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Reportes\VistaPreviaReporte.resx">
+      <DependentUpon>VistaPreviaReporte.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\RestablecerContraseña\Part1.resx">
+      <DependentUpon>Part1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\RestablecerContraseña\Part2.resx">
+      <DependentUpon>Part2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\RestablecerContraseña\Part3.resx">
+      <DependentUpon>Part3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\RestablecerContraseña\Part4.resx">
+      <DependentUpon>Part4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\RestablecerContraseña\RestablecerMain.resx">
+      <DependentUpon>RestablecerMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Secciones\Especialidades_Seccion.resx">
+      <DependentUpon>Especialidades_Seccion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Secciones\Modificar_Eliminar_Seccion.resx">
+      <DependentUpon>Modificar_Eliminar_Seccion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Secciones\Nueva_Seccion.resx">
+      <DependentUpon>Nueva_Seccion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Secciones\Nueva_seccion_main.resx">
+      <DependentUpon>Nueva_seccion_main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Secciones\Secciones_Inactivas.resx">
+      <DependentUpon>Secciones_Inactivas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Secciones\Seccion_Main.resx">
+      <DependentUpon>Seccion_Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Secciones\TipoSeccion.resx">
+      <DependentUpon>TipoSeccion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Usuarios\Controles_Usuarios.resx">
+      <DependentUpon>Controles_Usuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Usuarios\Datos_Personales_Usuarios.resx">
+      <DependentUpon>Datos_Personales_Usuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Usuarios\Datos_Usuarios.resx">
+      <DependentUpon>Datos_Usuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Usuarios\Editar_Usuario.resx">
+      <DependentUpon>Editar_Usuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Usuarios\FotoPerfil.resx">
+      <DependentUpon>FotoPerfil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Usuarios\Nuevo_Usuario_Main.resx">
+      <DependentUpon>Nuevo_Usuario_Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Usuarios\Privilegios_Estados.resx">
+      <DependentUpon>Privilegios_Estados.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dashboard_e.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Letra de Pago_e.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Menu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mi Perfil_e.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Modo_e.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Reporte_e.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Salir_e.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Usuarios_e.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dashboard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Letra de Pago.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mi Perfil.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Modo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Reportes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Usuarios.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\datos inactivos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\detalle medico.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\docentes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\editar alumnos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nueva matricula.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pass_NotVisible.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pass_Visible.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\secciones.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icono_btn_agregar_medicamentos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_Editar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Afeccion_Medicica.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Permite_Fisica.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tipo_Afeccion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Procedimiento_medico.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Alerta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Registro_Exitoso.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Registro_Completo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cuenta No Encontrada.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nuevo usuario.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Alergias.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dosis.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Medicamento.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Frecuencia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anadir Institucion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nie_temporal_e.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nie_temporal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Comprobante_e.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Letra_Pago_e.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Reportes_e.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Comprobante.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Letra_Pago.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Reporte.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo Bienvenida.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cargo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\institucion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\materia_especialidad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nivel_estudio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nie_temporal_mess.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img_tema_blanco.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img_tema_oscuro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_comprobante.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icono_search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Insticuciones_e.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Instituciones.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buscador_ico.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Alert.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Confirmacion_Usuario.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Descativacion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Exitoso.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Loader1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Loader2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\estado1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\estado2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\estado3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pastilla.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dosis_target.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Frecuencia_target.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Afeccion_target.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\procedimiento_target.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tipo_target.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\actividad_fisica_target.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Alergia_icono.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Check.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lack.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Completo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Incompleto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_añadir_comprobante.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn__comprobante.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\comprobante_alumno_img.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\comprobante_img.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CancelarMatricula.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\InformacionRegistrada.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_observar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_desplegar_info.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_info.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_informacion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_eliminar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SinFotoPerfil.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_cambiarFoto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CambiarFoto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img_datos_sin_mostrar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_agregar_materia_docente.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_completado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_quitar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Profile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ImgPerfil.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mantenimiento.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mantenimiento_e.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UsuariosActivos.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ReporteUsuariosActivos.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UsuariosActivosPlantilla.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\USUARIOS-ACTIVOS-REPORTES.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Reporte-usuarios-activos.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reporte-activos.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UsuariosActivos-Pantilla.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PlantillaParaReporteUsuariosActivosInactivos.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PlantillaParaUsuariosyAdministradores.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Vector.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PlantillaParaEmpleadosActivosInactivos.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PlantillaCategoriasExistentes.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PlantillaEstadisticaGeneral.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AlumnosActivosInactivos.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PlantillaAlumnosNieTemporal-LetraPago.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PlantillaEstadisticaAlumnosActivosInactivos.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PlantillaMatriculaAlumno.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PlantillaParaUsuarioIndividual.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PlantillaSeccionIndividual.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GenerarPDFMorado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GenerarPFPMoradoPalido.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_generar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_generar_pdf_morado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PlantillaEmpleadoIndividual.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img_pass.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img_pass_confirmado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img_pass_dos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Activos.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Inactivos.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Individual.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Administradores.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Secundarios.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AlumnosEnLetraPago.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EstadisticaGeneralAlumnos.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\V_tipos.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Usuario Individual.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\V_activos.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\V_administradores.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\V_AlActivos.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\V_AlInactivos.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\V_AlumSujetoTipo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\V_especialidades.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\V_estadisticageneral.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\V_inactivos.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\V_individual.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\V_letraPago.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\V_nieTemporal.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\V_sec_individual.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\V_secundarios.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\V_sujetaEspecialidad.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\V_sujetaTipo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\A_nieTemporal.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\A_AlInactivos.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\A_AlActivos.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\A_EstadisticaGeneralAlumnos.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\A_AlumSujetoTipo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\A_letraPago.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\R_nieTemporal.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\R_AlInactivos.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\R_AlActivos.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\R_EstadisticaGeneralAlumnos.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\R_AlumSujetoTipo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\R_letraPago.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 y x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Par1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Part2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Part3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Parte3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\V_EmpleadosRegistrados.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\V_EMpleadosActivos.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\V_EmpleadosInactivos.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\V_SujetoCargo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\V_SujetoNivelEstudio.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\V_SujetoEspecialidad.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\V_Cargos.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\V_NivelesEstudio.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\V_especialidadesRegistradas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EmpleadoPart2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EmpleadoPArt1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AlumnosSujetosSeccion.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Alumnos sujetos a una seccion 10-10-2023.pdf_page-0001 %281%29.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

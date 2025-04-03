@@ -1,0 +1,1332 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|CS_Proyecto||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|c:\\users\\erick\\downloads\\cs_3 (1)\\cs_finalizado\\cs_proyecto\\cs_proyecto\\capadatos\\cd_alumnos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|solutionrelative:cs_proyecto\\capadatos\\cd_alumnos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\cs_proyecto\\vistas\\mensajes funcionales\\nuevo_nie_temporal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|solutionrelative:cs_proyecto\\vistas\\mensajes funcionales\\nuevo_nie_temporal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\cs_proyecto\\vistas\\formulario matricula\\datos_personales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|solutionrelative:cs_proyecto\\vistas\\formulario matricula\\datos_personales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\cs_proyecto\\vistas\\formulario matricula\\responsable_principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|solutionrelative:cs_proyecto\\vistas\\formulario matricula\\responsable_principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\cs_proyecto\\vistas\\formulario matricula\\datos_personales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|solutionrelative:cs_proyecto\\vistas\\formulario matricula\\datos_personales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\cs_proyecto\\vistas\\formulario matricula\\comprobante_main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|solutionrelative:cs_proyecto\\vistas\\formulario matricula\\comprobante_main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\cs_proyecto\\vistas\\formulario matricula\\comprobante_main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|solutionrelative:cs_proyecto\\vistas\\formulario matricula\\comprobante_main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\cs_proyecto\\vistas\\formulario matricula\\pago_matricula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|solutionrelative:cs_proyecto\\vistas\\formulario matricula\\pago_matricula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\cs_proyecto\\vistas\\formulario matricula\\pago_matricula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|solutionrelative:cs_proyecto\\vistas\\formulario matricula\\pago_matricula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\cs_proyecto\\vistas\\docentes\\agregar_docentes_datos_personales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|solutionrelative:cs_proyecto\\vistas\\docentes\\agregar_docentes_datos_personales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\cs_proyecto\\atributos\\atributos_alumno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|solutionrelative:cs_proyecto\\atributos\\atributos_alumno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\cs_proyecto\\vistas\\docentes\\agregar_docente_identificacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|solutionrelative:cs_proyecto\\vistas\\docentes\\agregar_docente_identificacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\cs_proyecto\\vistas\\docentes\\agregar_docente_identificacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|solutionrelative:cs_proyecto\\vistas\\docentes\\agregar_docente_identificacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\cs_proyecto\\vistas\\formulario matricula\\identificacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|solutionrelative:cs_proyecto\\vistas\\formulario matricula\\identificacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\cs_proyecto\\vistas\\formulario matricula\\responsable_secundario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|solutionrelative:cs_proyecto\\vistas\\formulario matricula\\responsable_secundario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\cs_proyecto\\vistas\\formulario matricula\\responsable_secundario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|solutionrelative:cs_proyecto\\vistas\\formulario matricula\\responsable_secundario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\cs_proyecto\\vistas\\formulario matricula\\responsable_principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|solutionrelative:cs_proyecto\\vistas\\formulario matricula\\responsable_principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\cs_proyecto\\vistas\\usuarios\\datos_personales_usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|solutionrelative:cs_proyecto\\vistas\\usuarios\\datos_personales_usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\cs_proyecto\\vistas\\usuarios\\datos_personales_usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|solutionrelative:cs_proyecto\\vistas\\usuarios\\datos_personales_usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\cs_proyecto\\vistas\\dashboard\\dashboard_main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|solutionrelative:cs_proyecto\\vistas\\dashboard\\dashboard_main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\cs_proyecto\\vistas\\dashboard\\dashboard_controles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|solutionrelative:cs_proyecto\\vistas\\dashboard\\dashboard_controles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\cs_proyecto\\vistas\\desarrolladores\\desarrolladoresinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|solutionrelative:cs_proyecto\\vistas\\desarrolladores\\desarrolladoresinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\cs_proyecto\\vistas\\datos inactivos\\docentes_inactivos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|solutionrelative:cs_proyecto\\vistas\\datos inactivos\\docentes_inactivos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\cs_proyecto\\vistas\\datos inactivos\\docentes_inactivos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|solutionrelative:cs_proyecto\\vistas\\datos inactivos\\docentes_inactivos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\cs_proyecto\\vistas\\docentes\\modificar_o_eliminar_docente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|solutionrelative:cs_proyecto\\vistas\\docentes\\modificar_o_eliminar_docente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\cs_proyecto\\vistas\\docentes\\modificar_o_eliminar_docente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|solutionrelative:cs_proyecto\\vistas\\docentes\\modificar_o_eliminar_docente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\cs_proyecto\\resources\\plantillaempleadoindividual.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|solutionrelative:cs_proyecto\\resources\\plantillaempleadoindividual.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\cs_proyecto\\vistas\\reportes\\reporteempleadoindividual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|solutionrelative:cs_proyecto\\vistas\\reportes\\reporteempleadoindividual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\cs_proyecto\\capadatos\\cd_empleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|solutionrelative:cs_proyecto\\capadatos\\cd_empleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\cs_proyecto\\vistas\\mantenimiento\\mantenimiento_sistema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|solutionrelative:cs_proyecto\\vistas\\mantenimiento\\mantenimiento_sistema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\cs_proyecto\\capadatos\\cd_reportes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|solutionrelative:cs_proyecto\\capadatos\\cd_reportes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\cs_proyecto\\vistas\\mantenimiento\\mantenimiento_sistema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|solutionrelative:cs_proyecto\\vistas\\mantenimiento\\mantenimiento_sistema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\cs_proyecto\\vistas\\restablecercontrase\u00F1a\\part2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|solutionrelative:cs_proyecto\\vistas\\restablecercontrase\u00F1a\\part2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\cs_proyecto\\capanegocio\\cn_empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|solutionrelative:cs_proyecto\\capanegocio\\cn_empleado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\cs_proyecto\\vistas\\secciones\\especialidades_seccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|solutionrelative:cs_proyecto\\vistas\\secciones\\especialidades_seccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\cs_proyecto\\vistas\\secciones\\especialidades_seccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|solutionrelative:cs_proyecto\\vistas\\secciones\\especialidades_seccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\cs_proyecto\\vistas\\docentes\\dashboard_docente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|solutionrelative:cs_proyecto\\vistas\\docentes\\dashboard_docente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\cs_proyecto\\vistas\\reportes\\reporte_alumnos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|solutionrelative:cs_proyecto\\vistas\\reportes\\reporte_alumnos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\cs_proyecto\\vistas\\reportes\\reporte_alumnos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|solutionrelative:cs_proyecto\\vistas\\reportes\\reporte_alumnos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\cs_proyecto\\vistas\\reportes\\vistapreviareporte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|solutionrelative:cs_proyecto\\vistas\\reportes\\vistapreviareporte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\cs_proyecto\\vistas\\reportes\\vistapreviareporte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|solutionrelative:cs_proyecto\\vistas\\reportes\\vistapreviareporte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\cs_proyecto\\vistas\\restablecercontrase\u00F1a\\part1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|solutionrelative:cs_proyecto\\vistas\\restablecercontrase\u00F1a\\part1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\cs_proyecto\\vistas\\restablecercontrase\u00F1a\\part1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|solutionrelative:cs_proyecto\\vistas\\restablecercontrase\u00F1a\\part1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\cs_proyecto\\vistas\\restablecercontrase\u00F1a\\part2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|solutionrelative:cs_proyecto\\vistas\\restablecercontrase\u00F1a\\part2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\cs_proyecto\\vistas\\mensajes funcionales\\alumnomodificado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|solutionrelative:cs_proyecto\\vistas\\mensajes funcionales\\alumnomodificado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\cs_proyecto\\vistas\\mensajes funcionales\\usuarionoencontrado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|solutionrelative:cs_proyecto\\vistas\\mensajes funcionales\\usuarionoencontrado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\cs_proyecto\\vistas\\mensajes funcionales\\alumnomodificado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|solutionrelative:cs_proyecto\\vistas\\mensajes funcionales\\alumnomodificado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\cs_proyecto\\vistas\\mensajes funcionales\\usuarionoencontrado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|solutionrelative:cs_proyecto\\vistas\\mensajes funcionales\\usuarionoencontrado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\cs_proyecto\\vistas\\mensajes funcionales\\ingresarcorreo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|solutionrelative:cs_proyecto\\vistas\\mensajes funcionales\\ingresarcorreo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\cs_proyecto\\vistas\\formulario matricula\\identificacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|solutionrelative:cs_proyecto\\vistas\\formulario matricula\\identificacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\cs_proyecto\\capadatos\\cd_usuariuos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|solutionrelative:cs_proyecto\\capadatos\\cd_usuariuos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\cs_proyecto\\vistas\\desactivar alumnos\\desactivacion_part5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|solutionrelative:cs_proyecto\\vistas\\desactivar alumnos\\desactivacion_part5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\cs_proyecto\\vistas\\desactivar alumnos\\desactivacion_part5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|solutionrelative:cs_proyecto\\vistas\\desactivar alumnos\\desactivacion_part5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\cs_proyecto\\vistas\\desactivar alumnos\\desactivacion_part6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|solutionrelative:cs_proyecto\\vistas\\desactivar alumnos\\desactivacion_part6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\cs_proyecto\\vistas\\desactivar alumnos\\desactivacion_part4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|solutionrelative:cs_proyecto\\vistas\\desactivar alumnos\\desactivacion_part4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\cs_proyecto\\vistas\\desactivar alumnos\\desactivacion_part3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|solutionrelative:cs_proyecto\\vistas\\desactivar alumnos\\desactivacion_part3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\cs_proyecto\\vistas\\desactivar alumnos\\desactivacion_part3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|solutionrelative:cs_proyecto\\vistas\\desactivar alumnos\\desactivacion_part3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\cs_proyecto\\vistas\\desactivar alumnos\\desactivacion_part4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|solutionrelative:cs_proyecto\\vistas\\desactivar alumnos\\desactivacion_part4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\cs_proyecto\\vistas\\mensajes funcionales\\informedicaadicionaldocente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|solutionrelative:cs_proyecto\\vistas\\mensajes funcionales\\informedicaadicionaldocente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\cs_proyecto\\vistas\\docentes\\agregarcargosmateriasespecialidades_main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|solutionrelative:cs_proyecto\\vistas\\docentes\\agregarcargosmateriasespecialidades_main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\cs_proyecto\\vistas\\docentes\\agregarcargosmateriasespecialidades_main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|solutionrelative:cs_proyecto\\vistas\\docentes\\agregarcargosmateriasespecialidades_main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\cs_proyecto\\vistas\\pagostiposmatricula\\pagostiposmatricula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|solutionrelative:cs_proyecto\\vistas\\pagostiposmatricula\\pagostiposmatricula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\cs_proyecto\\vistas\\mensajes funcionales\\materiaagregada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|solutionrelative:cs_proyecto\\vistas\\mensajes funcionales\\materiaagregada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\cs_proyecto\\vistas\\docentes\\agregar_docente_especialidades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|solutionrelative:cs_proyecto\\vistas\\docentes\\agregar_docente_especialidades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\cs_proyecto\\vistas\\docentes\\agregar_docente_especialidades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|solutionrelative:cs_proyecto\\vistas\\docentes\\agregar_docente_especialidades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\cs_proyecto\\vistas\\mensajes funcionales\\empleadoregistradopart1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|solutionrelative:cs_proyecto\\vistas\\mensajes funcionales\\empleadoregistradopart1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\cs_proyecto\\vistas\\docentes\\agregar_materias_docentes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|solutionrelative:cs_proyecto\\vistas\\docentes\\agregar_materias_docentes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\cs_proyecto\\vistas\\docentes\\agregar_docente_cargos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|solutionrelative:cs_proyecto\\vistas\\docentes\\agregar_docente_cargos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\cs_proyecto\\vistas\\docentes\\modificar\\modificardocentemain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|solutionrelative:cs_proyecto\\vistas\\docentes\\modificar\\modificardocentemain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\cs_proyecto\\vistas\\docentes\\modificar\\modificardocentemain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|solutionrelative:cs_proyecto\\vistas\\docentes\\modificar\\modificardocentemain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\cs_proyecto\\vistas\\docentes\\agregar_materias_docentes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|solutionrelative:cs_proyecto\\vistas\\docentes\\agregar_materias_docentes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\cs_proyecto\\vistas\\docentes\\agregar_docente_cargos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|solutionrelative:cs_proyecto\\vistas\\docentes\\agregar_docente_cargos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\cs_proyecto\\vistas\\docentes\\agregar_docente_main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|solutionrelative:cs_proyecto\\vistas\\docentes\\agregar_docente_main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\cs_proyecto\\vistas\\docentes\\agregar_docente_main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|solutionrelative:cs_proyecto\\vistas\\docentes\\agregar_docente_main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\cs_proyecto\\vistas\\mensajes funcionales\\agregadoeditadoseccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|solutionrelative:cs_proyecto\\vistas\\mensajes funcionales\\agregadoeditadoseccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\cs_proyecto\\vistas\\mensajes funcionales\\empleadoregistradopart1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|solutionrelative:cs_proyecto\\vistas\\mensajes funcionales\\empleadoregistradopart1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\cs_proyecto\\vistas\\clasesvista\\navegarentreformularios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|solutionrelative:cs_proyecto\\vistas\\clasesvista\\navegarentreformularios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\cs_proyecto\\vistas\\nie temporal\\nie_temporal_main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|solutionrelative:cs_proyecto\\vistas\\nie temporal\\nie_temporal_main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\cs_proyecto\\capadatos\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|solutionrelative:cs_proyecto\\capadatos\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\cs_proyecto\\vistas\\secciones\\tiposeccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|solutionrelative:cs_proyecto\\vistas\\secciones\\tiposeccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\cs_proyecto\\vistas\\secciones\\tiposeccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|solutionrelative:cs_proyecto\\vistas\\secciones\\tiposeccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\cs_proyecto\\vistas\\nacionalidades\\nacionalidades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|solutionrelative:cs_proyecto\\vistas\\nacionalidades\\nacionalidades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\cs_proyecto\\vistas\\nacionalidades\\nacionalidades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|solutionrelative:cs_proyecto\\vistas\\nacionalidades\\nacionalidades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|c:\\users\\erick\\downloads\\cs_3 (1)\\cs_finalizado\\cs_proyecto\\cs_proyecto\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{38C3A318-F3D4-4A2A-9967-50A1B315EFB0}|CS_Proyecto\\CS_Proyecto.csproj|solutionrelative:cs_proyecto\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{7d1a5679-04f2-3f4a-851f-855baa54731c}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Comprobante_main.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Formulario Matricula\\Comprobante_main.cs",
+              "RelativeDocumentMoniker": "CS_Proyecto\\Vistas\\Formulario Matricula\\Comprobante_main.cs",
+              "ToolTip": "C:\\Users\\erick\\OneDrive\\Escritorio\\2\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Formulario Matricula\\Comprobante_main.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\OneDrive\\Escritorio\\2\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Formulario Matricula\\Comprobante_main.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-04-03T05:27:19.765Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Comprobante_main.cs",
+              "DocumentMoniker": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Formulario Matricula\\Comprobante_main.cs",
+              "RelativeDocumentMoniker": "CS_Proyecto\\Vistas\\Formulario Matricula\\Comprobante_main.cs",
+              "ToolTip": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Formulario Matricula\\Comprobante_main.cs",
+              "RelativeToolTip": "CS_Proyecto\\Vistas\\Formulario Matricula\\Comprobante_main.cs",
+              "ViewState": "AQIAAEoAAAAAAAAAAAAIwFIAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-04-03T05:27:19.769Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Responsable_principal.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Formulario Matricula\\Responsable_principal.cs",
+              "RelativeDocumentMoniker": "CS_Proyecto\\Vistas\\Formulario Matricula\\Responsable_principal.cs",
+              "ToolTip": "C:\\Users\\erick\\OneDrive\\Escritorio\\2\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Formulario Matricula\\Responsable_principal.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\OneDrive\\Escritorio\\2\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Formulario Matricula\\Responsable_principal.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-04-03T05:27:19.773Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CD_Alumnos.cs",
+              "DocumentMoniker": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\CapaDatos\\CD_Alumnos.cs",
+              "RelativeDocumentMoniker": "CS_Proyecto\\CapaDatos\\CD_Alumnos.cs",
+              "ToolTip": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\CapaDatos\\CD_Alumnos.cs",
+              "RelativeToolTip": "CS_Proyecto\\CapaDatos\\CD_Alumnos.cs",
+              "ViewState": "AgIAAJUEAAAAAAAAAAA6wJkEAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T05:27:20.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CS_Proyecto",
+              "DocumentMoniker": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\CS_Proyecto.csproj",
+              "RelativeDocumentMoniker": "CS_Proyecto\\CS_Proyecto.csproj",
+              "ToolTip": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\CS_Proyecto.csproj",
+              "RelativeToolTip": "CS_Proyecto\\CS_Proyecto.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2023-10-26T03:34:21.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Nuevo_nie_temporal.cs",
+              "DocumentMoniker": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Mensajes Funcionales\\Nuevo_nie_temporal.cs",
+              "RelativeDocumentMoniker": "CS_Proyecto\\Vistas\\Mensajes Funcionales\\Nuevo_nie_temporal.cs",
+              "ToolTip": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Mensajes Funcionales\\Nuevo_nie_temporal.cs",
+              "RelativeToolTip": "CS_Proyecto\\Vistas\\Mensajes Funcionales\\Nuevo_nie_temporal.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAqwC4AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-04-03T05:27:19.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Pago_matricula.cs",
+              "DocumentMoniker": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Formulario Matricula\\Pago_matricula.cs",
+              "RelativeDocumentMoniker": "CS_Proyecto\\Vistas\\Formulario Matricula\\Pago_matricula.cs",
+              "ToolTip": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Formulario Matricula\\Pago_matricula.cs",
+              "RelativeToolTip": "CS_Proyecto\\Vistas\\Formulario Matricula\\Pago_matricula.cs",
+              "ViewState": "AQIAAMcAAAAAAAAAAAAAANMAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-04-03T05:27:21.113Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Datos_personales.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Formulario Matricula\\Datos_personales.cs",
+              "RelativeDocumentMoniker": "CS_Proyecto\\Vistas\\Formulario Matricula\\Datos_personales.cs",
+              "ToolTip": "C:\\Users\\erick\\OneDrive\\Escritorio\\2\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Formulario Matricula\\Datos_personales.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\OneDrive\\Escritorio\\2\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Formulario Matricula\\Datos_personales.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-04-03T05:27:21.118Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Datos_personales.cs",
+              "DocumentMoniker": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Formulario Matricula\\Datos_personales.cs",
+              "RelativeDocumentMoniker": "CS_Proyecto\\Vistas\\Formulario Matricula\\Datos_personales.cs",
+              "ToolTip": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Formulario Matricula\\Datos_personales.cs",
+              "RelativeToolTip": "CS_Proyecto\\Vistas\\Formulario Matricula\\Datos_personales.cs",
+              "ViewState": "AQIAACYBAAAAAAAAAAAawDcBAACCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-04-03T05:27:21.131Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Pago_matricula.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Formulario Matricula\\Pago_matricula.cs",
+              "RelativeDocumentMoniker": "CS_Proyecto\\Vistas\\Formulario Matricula\\Pago_matricula.cs",
+              "ToolTip": "C:\\Users\\erick\\OneDrive\\Escritorio\\2\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Formulario Matricula\\Pago_matricula.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\OneDrive\\Escritorio\\2\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Formulario Matricula\\Pago_matricula.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-04-03T05:27:21.136Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Agregar_Docentes_Datos_Personales.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Docentes\\Agregar_Docentes_Datos_Personales.cs",
+              "RelativeDocumentMoniker": "CS_Proyecto\\Vistas\\Docentes\\Agregar_Docentes_Datos_Personales.cs",
+              "ToolTip": "C:\\Users\\erick\\OneDrive\\Escritorio\\2\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Docentes\\Agregar_Docentes_Datos_Personales.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\OneDrive\\Escritorio\\2\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Docentes\\Agregar_Docentes_Datos_Personales.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-04-03T05:27:21.142Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Atributos_Alumno.cs",
+              "DocumentMoniker": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Atributos\\Atributos_Alumno.cs",
+              "RelativeDocumentMoniker": "CS_Proyecto\\Atributos\\Atributos_Alumno.cs",
+              "ToolTip": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Atributos\\Atributos_Alumno.cs",
+              "RelativeToolTip": "CS_Proyecto\\Atributos\\Atributos_Alumno.cs",
+              "ViewState": "AQIAAFAAAAAAAAAAAAAswF0AAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T05:27:21.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Agregar_Docente_Identificacion.cs",
+              "DocumentMoniker": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Docentes\\Agregar_Docente_Identificacion.cs",
+              "RelativeDocumentMoniker": "CS_Proyecto\\Vistas\\Docentes\\Agregar_Docente_Identificacion.cs",
+              "ToolTip": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Docentes\\Agregar_Docente_Identificacion.cs",
+              "RelativeToolTip": "CS_Proyecto\\Vistas\\Docentes\\Agregar_Docente_Identificacion.cs",
+              "ViewState": "AQIAACEBAAAAAAAAAAAowB8BAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-04-03T05:27:21.152Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Responsable_secundario.cs",
+              "DocumentMoniker": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Formulario Matricula\\Responsable_secundario.cs",
+              "RelativeDocumentMoniker": "CS_Proyecto\\Vistas\\Formulario Matricula\\Responsable_secundario.cs",
+              "ToolTip": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Formulario Matricula\\Responsable_secundario.cs",
+              "RelativeToolTip": "CS_Proyecto\\Vistas\\Formulario Matricula\\Responsable_secundario.cs",
+              "ViewState": "AQIAAI0AAAAAAAAAAAAQwJUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-04-03T05:27:21.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Responsable_secundario.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Formulario Matricula\\Responsable_secundario.cs",
+              "RelativeDocumentMoniker": "CS_Proyecto\\Vistas\\Formulario Matricula\\Responsable_secundario.cs",
+              "ToolTip": "C:\\Users\\erick\\OneDrive\\Escritorio\\2\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Formulario Matricula\\Responsable_secundario.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\OneDrive\\Escritorio\\2\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Formulario Matricula\\Responsable_secundario.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-04-03T05:27:21.161Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Agregar_Docente_Identificacion.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Docentes\\Agregar_Docente_Identificacion.cs",
+              "RelativeDocumentMoniker": "CS_Proyecto\\Vistas\\Docentes\\Agregar_Docente_Identificacion.cs",
+              "ToolTip": "C:\\Users\\erick\\OneDrive\\Escritorio\\2\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Docentes\\Agregar_Docente_Identificacion.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\OneDrive\\Escritorio\\2\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Docentes\\Agregar_Docente_Identificacion.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-04-03T05:27:21.169Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Responsable_principal.cs",
+              "DocumentMoniker": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Formulario Matricula\\Responsable_principal.cs",
+              "RelativeDocumentMoniker": "CS_Proyecto\\Vistas\\Formulario Matricula\\Responsable_principal.cs",
+              "ToolTip": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Formulario Matricula\\Responsable_principal.cs",
+              "RelativeToolTip": "CS_Proyecto\\Vistas\\Formulario Matricula\\Responsable_principal.cs",
+              "ViewState": "AQIAAPEAAAAAAAAAAAAQwPQAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-04-03T05:27:21.175Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Identificacion.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Formulario Matricula\\Identificacion.cs",
+              "RelativeDocumentMoniker": "CS_Proyecto\\Vistas\\Formulario Matricula\\Identificacion.cs",
+              "ToolTip": "C:\\Users\\erick\\OneDrive\\Escritorio\\2\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Formulario Matricula\\Identificacion.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\OneDrive\\Escritorio\\2\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Formulario Matricula\\Identificacion.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-04-03T05:27:21.18Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Datos_Personales_Usuarios.cs",
+              "DocumentMoniker": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Usuarios\\Datos_Personales_Usuarios.cs",
+              "RelativeDocumentMoniker": "CS_Proyecto\\Vistas\\Usuarios\\Datos_Personales_Usuarios.cs",
+              "ToolTip": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Usuarios\\Datos_Personales_Usuarios.cs",
+              "RelativeToolTip": "CS_Proyecto\\Vistas\\Usuarios\\Datos_Personales_Usuarios.cs",
+              "ViewState": "AQIAAGcAAAAAAAAAAAAAAHQAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-04-03T05:27:21.185Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Datos_Personales_Usuarios.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Usuarios\\Datos_Personales_Usuarios.cs",
+              "RelativeDocumentMoniker": "CS_Proyecto\\Vistas\\Usuarios\\Datos_Personales_Usuarios.cs",
+              "ToolTip": "C:\\Users\\erick\\OneDrive\\Escritorio\\2\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Usuarios\\Datos_Personales_Usuarios.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\OneDrive\\Escritorio\\2\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Usuarios\\Datos_Personales_Usuarios.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-04-03T05:27:21.189Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Dashboard_Main.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Dashboard\\Dashboard_Main.cs",
+              "RelativeDocumentMoniker": "CS_Proyecto\\Vistas\\Dashboard\\Dashboard_Main.cs",
+              "ToolTip": "C:\\Users\\erick\\OneDrive\\Escritorio\\2\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Dashboard\\Dashboard_Main.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\OneDrive\\Escritorio\\2\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Dashboard\\Dashboard_Main.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-04-03T05:27:21.197Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "PlantillaEmpleadoIndividual.html",
+              "DocumentMoniker": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Resources\\PlantillaEmpleadoIndividual.html",
+              "RelativeDocumentMoniker": "CS_Proyecto\\Resources\\PlantillaEmpleadoIndividual.html",
+              "ToolTip": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Resources\\PlantillaEmpleadoIndividual.html",
+              "RelativeToolTip": "CS_Proyecto\\Resources\\PlantillaEmpleadoIndividual.html",
+              "ViewState": "AQIAAOwAAAAAAAAAAAAcwAgBAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-04-03T05:27:21.202Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "CN_Empleado.cs",
+              "DocumentMoniker": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\CapaNegocio\\CN_Empleado.cs",
+              "RelativeDocumentMoniker": "CS_Proyecto\\CapaNegocio\\CN_Empleado.cs",
+              "ToolTip": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\CapaNegocio\\CN_Empleado.cs",
+              "RelativeToolTip": "CS_Proyecto\\CapaNegocio\\CN_Empleado.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAQwBIAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T05:27:21.212Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Modificar_O_Eliminar_Docente.cs",
+              "DocumentMoniker": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Docentes\\Modificar_O_Eliminar_Docente.cs",
+              "RelativeDocumentMoniker": "CS_Proyecto\\Vistas\\Docentes\\Modificar_O_Eliminar_Docente.cs",
+              "ToolTip": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Docentes\\Modificar_O_Eliminar_Docente.cs",
+              "RelativeToolTip": "CS_Proyecto\\Vistas\\Docentes\\Modificar_O_Eliminar_Docente.cs",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAswFcAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-04-03T05:27:21.219Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Docentes_inactivos.cs",
+              "DocumentMoniker": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Datos Inactivos\\Docentes_inactivos.cs",
+              "RelativeDocumentMoniker": "CS_Proyecto\\Vistas\\Datos Inactivos\\Docentes_inactivos.cs",
+              "ToolTip": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Datos Inactivos\\Docentes_inactivos.cs",
+              "RelativeToolTip": "CS_Proyecto\\Vistas\\Datos Inactivos\\Docentes_inactivos.cs",
+              "ViewState": "AQIAAF8AAAAAAAAAAAAuwIgAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-04-03T05:27:21.225Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Dashboard_controles.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Dashboard\\Dashboard_controles.cs",
+              "RelativeDocumentMoniker": "CS_Proyecto\\Vistas\\Dashboard\\Dashboard_controles.cs",
+              "ToolTip": "C:\\Users\\erick\\OneDrive\\Escritorio\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Dashboard\\Dashboard_controles.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\OneDrive\\Escritorio\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Dashboard\\Dashboard_controles.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-04-03T05:27:21.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Modificar_O_Eliminar_Docente.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Docentes\\Modificar_O_Eliminar_Docente.cs",
+              "RelativeDocumentMoniker": "CS_Proyecto\\Vistas\\Docentes\\Modificar_O_Eliminar_Docente.cs",
+              "ToolTip": "C:\\Users\\erick\\OneDrive\\Escritorio\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Docentes\\Modificar_O_Eliminar_Docente.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\OneDrive\\Escritorio\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Docentes\\Modificar_O_Eliminar_Docente.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-04-03T05:27:21.238Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "DesarrolladoresInfo.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Desarrolladores\\DesarrolladoresInfo.cs",
+              "RelativeDocumentMoniker": "CS_Proyecto\\Vistas\\Desarrolladores\\DesarrolladoresInfo.cs",
+              "ToolTip": "C:\\Users\\erick\\OneDrive\\Escritorio\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Desarrolladores\\DesarrolladoresInfo.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\OneDrive\\Escritorio\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Desarrolladores\\DesarrolladoresInfo.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-04-03T05:27:21.247Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Docentes_inactivos.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Datos Inactivos\\Docentes_inactivos.cs",
+              "RelativeDocumentMoniker": "CS_Proyecto\\Vistas\\Datos Inactivos\\Docentes_inactivos.cs",
+              "ToolTip": "C:\\Users\\erick\\OneDrive\\Escritorio\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Datos Inactivos\\Docentes_inactivos.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\OneDrive\\Escritorio\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Datos Inactivos\\Docentes_inactivos.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-04-03T05:27:21.255Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ReporteEmpleadoIndividual.cs",
+              "DocumentMoniker": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Reportes\\ReporteEmpleadoIndividual.cs",
+              "RelativeDocumentMoniker": "CS_Proyecto\\Vistas\\Reportes\\ReporteEmpleadoIndividual.cs",
+              "ToolTip": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Reportes\\ReporteEmpleadoIndividual.cs",
+              "RelativeToolTip": "CS_Proyecto\\Vistas\\Reportes\\ReporteEmpleadoIndividual.cs",
+              "ViewState": "AQIAAJ0AAAAAAAAAAAAgwLYAAABlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-04-03T05:27:21.262Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "CD_Empleados.cs",
+              "DocumentMoniker": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\CapaDatos\\CD_Empleados.cs",
+              "RelativeDocumentMoniker": "CS_Proyecto\\CapaDatos\\CD_Empleados.cs",
+              "ToolTip": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\CapaDatos\\CD_Empleados.cs",
+              "RelativeToolTip": "CS_Proyecto\\CapaDatos\\CD_Empleados.cs",
+              "ViewState": "AQIAAKsAAAAAAAAAAAAiwLAAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T05:27:21.267Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Mantenimiento_sistema.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Mantenimiento\\Mantenimiento_sistema.cs",
+              "RelativeDocumentMoniker": "CS_Proyecto\\Vistas\\Mantenimiento\\Mantenimiento_sistema.cs",
+              "ToolTip": "C:\\Users\\erick\\OneDrive\\Escritorio\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Mantenimiento\\Mantenimiento_sistema.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\OneDrive\\Escritorio\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Mantenimiento\\Mantenimiento_sistema.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-04-03T05:27:21.273Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "CD_reportes.cs",
+              "DocumentMoniker": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\CapaDatos\\CD_reportes.cs",
+              "RelativeDocumentMoniker": "CS_Proyecto\\CapaDatos\\CD_reportes.cs",
+              "ToolTip": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\CapaDatos\\CD_reportes.cs",
+              "RelativeToolTip": "CS_Proyecto\\CapaDatos\\CD_reportes.cs",
+              "ViewState": "AQIAAP4BAAAAAAAAAAAQwAcCAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T05:27:21.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Mantenimiento_sistema.cs",
+              "DocumentMoniker": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Mantenimiento\\Mantenimiento_sistema.cs",
+              "RelativeDocumentMoniker": "CS_Proyecto\\Vistas\\Mantenimiento\\Mantenimiento_sistema.cs",
+              "ToolTip": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Mantenimiento\\Mantenimiento_sistema.cs",
+              "RelativeToolTip": "CS_Proyecto\\Vistas\\Mantenimiento\\Mantenimiento_sistema.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAIwBkAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-04-03T05:27:21.283Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Part2.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\RestablecerContrase\u00F1a\\Part2.cs",
+              "RelativeDocumentMoniker": "CS_Proyecto\\Vistas\\RestablecerContrase\u00F1a\\Part2.cs",
+              "ToolTip": "C:\\Users\\erick\\OneDrive\\Escritorio\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\RestablecerContrase\u00F1a\\Part2.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\OneDrive\\Escritorio\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\RestablecerContrase\u00F1a\\Part2.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-04-03T05:27:21.288Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Especialidades_Seccion.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Secciones\\Especialidades_Seccion.cs",
+              "RelativeDocumentMoniker": "CS_Proyecto\\Vistas\\Secciones\\Especialidades_Seccion.cs",
+              "ToolTip": "C:\\Users\\erick\\OneDrive\\Escritorio\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Secciones\\Especialidades_Seccion.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\OneDrive\\Escritorio\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Secciones\\Especialidades_Seccion.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-04-03T05:27:21.296Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Especialidades_Seccion.cs",
+              "DocumentMoniker": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Secciones\\Especialidades_Seccion.cs",
+              "RelativeDocumentMoniker": "CS_Proyecto\\Vistas\\Secciones\\Especialidades_Seccion.cs",
+              "ToolTip": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Secciones\\Especialidades_Seccion.cs",
+              "RelativeToolTip": "CS_Proyecto\\Vistas\\Secciones\\Especialidades_Seccion.cs",
+              "ViewState": "AQIAAI0AAAAAAAAAAAAowIQAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-04-03T05:27:21.304Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Part2.cs",
+              "DocumentMoniker": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\RestablecerContrase\u00F1a\\Part2.cs",
+              "RelativeDocumentMoniker": "CS_Proyecto\\Vistas\\RestablecerContrase\u00F1a\\Part2.cs",
+              "ToolTip": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\RestablecerContrase\u00F1a\\Part2.cs",
+              "RelativeToolTip": "CS_Proyecto\\Vistas\\RestablecerContrase\u00F1a\\Part2.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAMwJIAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-04-03T05:27:21.309Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Reporte_alumnos.cs",
+              "DocumentMoniker": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Reportes\\Reporte_alumnos.cs",
+              "RelativeDocumentMoniker": "CS_Proyecto\\Vistas\\Reportes\\Reporte_alumnos.cs",
+              "ToolTip": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Reportes\\Reporte_alumnos.cs",
+              "RelativeToolTip": "CS_Proyecto\\Vistas\\Reportes\\Reporte_alumnos.cs",
+              "ViewState": "AQIAAJAAAAAAAAAAAADwv7EAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-04-03T05:27:21.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Dashboard_Docente.cs",
+              "DocumentMoniker": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Docentes\\Dashboard_Docente.cs",
+              "RelativeDocumentMoniker": "CS_Proyecto\\Vistas\\Docentes\\Dashboard_Docente.cs",
+              "ToolTip": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Docentes\\Dashboard_Docente.cs",
+              "RelativeToolTip": "CS_Proyecto\\Vistas\\Docentes\\Dashboard_Docente.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAQwDEAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-04-03T05:27:21.32Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "VistaPreviaReporte.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Reportes\\VistaPreviaReporte.cs",
+              "RelativeDocumentMoniker": "CS_Proyecto\\Vistas\\Reportes\\VistaPreviaReporte.cs",
+              "ToolTip": "C:\\Users\\erick\\OneDrive\\Escritorio\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Reportes\\VistaPreviaReporte.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\OneDrive\\Escritorio\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Reportes\\VistaPreviaReporte.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-04-03T05:27:21.324Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "VistaPreviaReporte.cs",
+              "DocumentMoniker": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Reportes\\VistaPreviaReporte.cs",
+              "RelativeDocumentMoniker": "CS_Proyecto\\Vistas\\Reportes\\VistaPreviaReporte.cs",
+              "ToolTip": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Reportes\\VistaPreviaReporte.cs",
+              "RelativeToolTip": "CS_Proyecto\\Vistas\\Reportes\\VistaPreviaReporte.cs",
+              "ViewState": "AQIAAF4AAAAAAAAAAADwv2oAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-04-03T05:27:21.329Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Reporte_alumnos.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Reportes\\Reporte_alumnos.cs",
+              "RelativeDocumentMoniker": "CS_Proyecto\\Vistas\\Reportes\\Reporte_alumnos.cs",
+              "ToolTip": "C:\\Users\\erick\\OneDrive\\Escritorio\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Reportes\\Reporte_alumnos.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\OneDrive\\Escritorio\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Reportes\\Reporte_alumnos.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-04-03T05:27:21.333Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "UsuarioNoEncontrado.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Mensajes Funcionales\\UsuarioNoEncontrado.cs",
+              "RelativeDocumentMoniker": "CS_Proyecto\\Vistas\\Mensajes Funcionales\\UsuarioNoEncontrado.cs",
+              "ToolTip": "C:\\Users\\erick\\OneDrive\\Escritorio\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Mensajes Funcionales\\UsuarioNoEncontrado.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\OneDrive\\Escritorio\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Mensajes Funcionales\\UsuarioNoEncontrado.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-04-03T05:27:21.339Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "IngresarCorreo.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Mensajes Funcionales\\IngresarCorreo.cs",
+              "RelativeDocumentMoniker": "CS_Proyecto\\Vistas\\Mensajes Funcionales\\IngresarCorreo.cs",
+              "ToolTip": "C:\\Users\\erick\\OneDrive\\Escritorio\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Mensajes Funcionales\\IngresarCorreo.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\OneDrive\\Escritorio\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Mensajes Funcionales\\IngresarCorreo.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-04-03T05:27:21.344Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Part1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\RestablecerContrase\u00F1a\\Part1.cs",
+              "RelativeDocumentMoniker": "CS_Proyecto\\Vistas\\RestablecerContrase\u00F1a\\Part1.cs",
+              "ToolTip": "C:\\Users\\erick\\OneDrive\\Escritorio\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\RestablecerContrase\u00F1a\\Part1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\OneDrive\\Escritorio\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\RestablecerContrase\u00F1a\\Part1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-04-03T05:27:21.348Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Part1.cs",
+              "DocumentMoniker": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\RestablecerContrase\u00F1a\\Part1.cs",
+              "RelativeDocumentMoniker": "CS_Proyecto\\Vistas\\RestablecerContrase\u00F1a\\Part1.cs",
+              "ToolTip": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\RestablecerContrase\u00F1a\\Part1.cs",
+              "RelativeToolTip": "CS_Proyecto\\Vistas\\RestablecerContrase\u00F1a\\Part1.cs",
+              "ViewState": "AQIAAGcAAAAAAAAAAAAwwG4AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-04-03T05:27:21.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "UsuarioNoEncontrado.cs",
+              "DocumentMoniker": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Mensajes Funcionales\\UsuarioNoEncontrado.cs",
+              "RelativeDocumentMoniker": "CS_Proyecto\\Vistas\\Mensajes Funcionales\\UsuarioNoEncontrado.cs",
+              "ToolTip": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Mensajes Funcionales\\UsuarioNoEncontrado.cs",
+              "RelativeToolTip": "CS_Proyecto\\Vistas\\Mensajes Funcionales\\UsuarioNoEncontrado.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAiwB0AAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-04-03T05:27:21.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "AlumnoModificado.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Mensajes Funcionales\\AlumnoModificado.cs",
+              "RelativeDocumentMoniker": "CS_Proyecto\\Vistas\\Mensajes Funcionales\\AlumnoModificado.cs",
+              "ToolTip": "C:\\Users\\erick\\OneDrive\\Escritorio\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Mensajes Funcionales\\AlumnoModificado.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\OneDrive\\Escritorio\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Mensajes Funcionales\\AlumnoModificado.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-04-03T05:27:21.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "AlumnoModificado.cs",
+              "DocumentMoniker": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Mensajes Funcionales\\AlumnoModificado.cs",
+              "RelativeDocumentMoniker": "CS_Proyecto\\Vistas\\Mensajes Funcionales\\AlumnoModificado.cs",
+              "ToolTip": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Mensajes Funcionales\\AlumnoModificado.cs",
+              "RelativeToolTip": "CS_Proyecto\\Vistas\\Mensajes Funcionales\\AlumnoModificado.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAewB4AAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-04-03T05:27:21.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "Identificacion.cs",
+              "DocumentMoniker": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Formulario Matricula\\Identificacion.cs",
+              "RelativeDocumentMoniker": "CS_Proyecto\\Vistas\\Formulario Matricula\\Identificacion.cs",
+              "ToolTip": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Formulario Matricula\\Identificacion.cs",
+              "RelativeToolTip": "CS_Proyecto\\Vistas\\Formulario Matricula\\Identificacion.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAUwDUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-04-03T05:27:21.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "CD_Usuariuos.cs",
+              "DocumentMoniker": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\CapaDatos\\CD_Usuariuos.cs",
+              "RelativeDocumentMoniker": "CS_Proyecto\\CapaDatos\\CD_Usuariuos.cs",
+              "ToolTip": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\CapaDatos\\CD_Usuariuos.cs",
+              "RelativeToolTip": "CS_Proyecto\\CapaDatos\\CD_Usuariuos.cs",
+              "ViewState": "AQIAAAABAAAAAAAAAAAUwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T05:27:21.377Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "Desactivacion_part5.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Desactivar Alumnos\\Desactivacion_part5.cs",
+              "RelativeDocumentMoniker": "CS_Proyecto\\Vistas\\Desactivar Alumnos\\Desactivacion_part5.cs",
+              "ToolTip": "C:\\Users\\erick\\OneDrive\\Escritorio\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Desactivar Alumnos\\Desactivacion_part5.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\OneDrive\\Escritorio\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Desactivar Alumnos\\Desactivacion_part5.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-04-03T05:27:21.382Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "Desactivacion_part5.cs",
+              "DocumentMoniker": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Desactivar Alumnos\\Desactivacion_part5.cs",
+              "RelativeDocumentMoniker": "CS_Proyecto\\Vistas\\Desactivar Alumnos\\Desactivacion_part5.cs",
+              "ToolTip": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Desactivar Alumnos\\Desactivacion_part5.cs",
+              "RelativeToolTip": "CS_Proyecto\\Vistas\\Desactivar Alumnos\\Desactivacion_part5.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACcAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-04-03T05:27:21.39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "Desactivacion_part6.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Desactivar Alumnos\\Desactivacion_part6.cs",
+              "RelativeDocumentMoniker": "CS_Proyecto\\Vistas\\Desactivar Alumnos\\Desactivacion_part6.cs",
+              "ToolTip": "C:\\Users\\erick\\OneDrive\\Escritorio\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Desactivar Alumnos\\Desactivacion_part6.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\OneDrive\\Escritorio\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Desactivar Alumnos\\Desactivacion_part6.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-04-03T05:27:21.395Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "Desactivacion_part3.cs",
+              "DocumentMoniker": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Desactivar Alumnos\\Desactivacion_part3.cs",
+              "RelativeDocumentMoniker": "CS_Proyecto\\Vistas\\Desactivar Alumnos\\Desactivacion_part3.cs",
+              "ToolTip": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Desactivar Alumnos\\Desactivacion_part3.cs",
+              "RelativeToolTip": "CS_Proyecto\\Vistas\\Desactivar Alumnos\\Desactivacion_part3.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAIA8wCQAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-04-03T05:27:21.4Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "Desactivacion_part3.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Desactivar Alumnos\\Desactivacion_part3.cs",
+              "RelativeDocumentMoniker": "CS_Proyecto\\Vistas\\Desactivar Alumnos\\Desactivacion_part3.cs",
+              "ToolTip": "C:\\Users\\erick\\OneDrive\\Escritorio\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Desactivar Alumnos\\Desactivacion_part3.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\OneDrive\\Escritorio\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Desactivar Alumnos\\Desactivacion_part3.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-04-03T05:27:21.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "Desactivacion_part4.cs",
+              "DocumentMoniker": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Desactivar Alumnos\\Desactivacion_part4.cs",
+              "RelativeDocumentMoniker": "CS_Proyecto\\Vistas\\Desactivar Alumnos\\Desactivacion_part4.cs",
+              "ToolTip": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Desactivar Alumnos\\Desactivacion_part4.cs",
+              "RelativeToolTip": "CS_Proyecto\\Vistas\\Desactivar Alumnos\\Desactivacion_part4.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAgwCYAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-04-03T05:27:21.41Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "Desactivacion_part4.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Desactivar Alumnos\\Desactivacion_part4.cs",
+              "RelativeDocumentMoniker": "CS_Proyecto\\Vistas\\Desactivar Alumnos\\Desactivacion_part4.cs",
+              "ToolTip": "C:\\Users\\erick\\OneDrive\\Escritorio\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Desactivar Alumnos\\Desactivacion_part4.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\OneDrive\\Escritorio\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Desactivar Alumnos\\Desactivacion_part4.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-04-03T05:27:21.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "InforMedicaAdicionalDocente.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Mensajes Funcionales\\InforMedicaAdicionalDocente.cs",
+              "RelativeDocumentMoniker": "CS_Proyecto\\Vistas\\Mensajes Funcionales\\InforMedicaAdicionalDocente.cs",
+              "ToolTip": "C:\\Users\\erick\\OneDrive\\Escritorio\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Mensajes Funcionales\\InforMedicaAdicionalDocente.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\OneDrive\\Escritorio\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Mensajes Funcionales\\InforMedicaAdicionalDocente.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-04-03T05:27:21.419Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "PagosTiposMatricula.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\PagosTiposMatricula\\PagosTiposMatricula.cs",
+              "RelativeDocumentMoniker": "CS_Proyecto\\Vistas\\PagosTiposMatricula\\PagosTiposMatricula.cs",
+              "ToolTip": "C:\\Users\\erick\\OneDrive\\Escritorio\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\PagosTiposMatricula\\PagosTiposMatricula.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\OneDrive\\Escritorio\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\PagosTiposMatricula\\PagosTiposMatricula.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-04-03T05:27:21.425Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "Agregar_Docente_cargos.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Docentes\\Agregar_Docente_cargos.cs",
+              "RelativeDocumentMoniker": "CS_Proyecto\\Vistas\\Docentes\\Agregar_Docente_cargos.cs",
+              "ToolTip": "C:\\Users\\erick\\OneDrive\\Escritorio\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Docentes\\Agregar_Docente_cargos.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\OneDrive\\Escritorio\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Docentes\\Agregar_Docente_cargos.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-04-03T05:27:21.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "EmpleadoRegistradoPart1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Mensajes Funcionales\\EmpleadoRegistradoPart1.cs",
+              "RelativeDocumentMoniker": "CS_Proyecto\\Vistas\\Mensajes Funcionales\\EmpleadoRegistradoPart1.cs",
+              "ToolTip": "C:\\Users\\erick\\OneDrive\\Escritorio\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Mensajes Funcionales\\EmpleadoRegistradoPart1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\OneDrive\\Escritorio\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Mensajes Funcionales\\EmpleadoRegistradoPart1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-04-03T05:27:21.437Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "Agregar_materias_docentes.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Docentes\\Agregar_materias_docentes.cs",
+              "RelativeDocumentMoniker": "CS_Proyecto\\Vistas\\Docentes\\Agregar_materias_docentes.cs",
+              "ToolTip": "C:\\Users\\erick\\OneDrive\\Escritorio\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Docentes\\Agregar_materias_docentes.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\OneDrive\\Escritorio\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Docentes\\Agregar_materias_docentes.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-04-03T05:27:21.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "AgregarCargosMateriasEspecialidades_Main.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Docentes\\AgregarCargosMateriasEspecialidades_Main.cs",
+              "RelativeDocumentMoniker": "CS_Proyecto\\Vistas\\Docentes\\AgregarCargosMateriasEspecialidades_Main.cs",
+              "ToolTip": "C:\\Users\\erick\\OneDrive\\Escritorio\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Docentes\\AgregarCargosMateriasEspecialidades_Main.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\OneDrive\\Escritorio\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Docentes\\AgregarCargosMateriasEspecialidades_Main.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-04-03T05:27:21.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "AgregarCargosMateriasEspecialidades_Main.cs",
+              "DocumentMoniker": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Docentes\\AgregarCargosMateriasEspecialidades_Main.cs",
+              "RelativeDocumentMoniker": "CS_Proyecto\\Vistas\\Docentes\\AgregarCargosMateriasEspecialidades_Main.cs",
+              "ToolTip": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Docentes\\AgregarCargosMateriasEspecialidades_Main.cs",
+              "RelativeToolTip": "CS_Proyecto\\Vistas\\Docentes\\AgregarCargosMateriasEspecialidades_Main.cs",
+              "ViewState": "AQIAADoAAAAAAAAAAAAnwFEAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-04-03T05:27:21.452Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "Agregar_Docente_Especialidades.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Docentes\\Agregar_Docente_Especialidades.cs",
+              "RelativeDocumentMoniker": "CS_Proyecto\\Vistas\\Docentes\\Agregar_Docente_Especialidades.cs",
+              "ToolTip": "C:\\Users\\erick\\OneDrive\\Escritorio\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Docentes\\Agregar_Docente_Especialidades.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\OneDrive\\Escritorio\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Docentes\\Agregar_Docente_Especialidades.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-04-03T05:27:21.456Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "MateriaAgregada.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Mensajes Funcionales\\MateriaAgregada.cs",
+              "RelativeDocumentMoniker": "CS_Proyecto\\Vistas\\Mensajes Funcionales\\MateriaAgregada.cs",
+              "ToolTip": "C:\\Users\\erick\\OneDrive\\Escritorio\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Mensajes Funcionales\\MateriaAgregada.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\OneDrive\\Escritorio\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Mensajes Funcionales\\MateriaAgregada.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-04-03T05:27:21.463Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "Agregar_Docente_Especialidades.cs",
+              "DocumentMoniker": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Docentes\\Agregar_Docente_Especialidades.cs",
+              "RelativeDocumentMoniker": "CS_Proyecto\\Vistas\\Docentes\\Agregar_Docente_Especialidades.cs",
+              "ToolTip": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Docentes\\Agregar_Docente_Especialidades.cs",
+              "RelativeToolTip": "CS_Proyecto\\Vistas\\Docentes\\Agregar_Docente_Especialidades.cs",
+              "ViewState": "AQIAAI8AAAAAAAAAAAAAAJcAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-04-03T05:27:21.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "ModificarDocenteMain.cs",
+              "DocumentMoniker": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Docentes\\Modificar\\ModificarDocenteMain.cs",
+              "RelativeDocumentMoniker": "CS_Proyecto\\Vistas\\Docentes\\Modificar\\ModificarDocenteMain.cs",
+              "ToolTip": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Docentes\\Modificar\\ModificarDocenteMain.cs",
+              "RelativeToolTip": "CS_Proyecto\\Vistas\\Docentes\\Modificar\\ModificarDocenteMain.cs",
+              "ViewState": "AQIAAG4AAAAAAAAAAAAAwGIAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-04-03T05:27:21.473Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "ModificarDocenteMain.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Docentes\\Modificar\\ModificarDocenteMain.cs",
+              "RelativeDocumentMoniker": "CS_Proyecto\\Vistas\\Docentes\\Modificar\\ModificarDocenteMain.cs",
+              "ToolTip": "C:\\Users\\erick\\OneDrive\\Escritorio\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Docentes\\Modificar\\ModificarDocenteMain.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\OneDrive\\Escritorio\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Docentes\\Modificar\\ModificarDocenteMain.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-04-03T05:27:21.478Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "Agregar_materias_docentes.cs",
+              "DocumentMoniker": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Docentes\\Agregar_materias_docentes.cs",
+              "RelativeDocumentMoniker": "CS_Proyecto\\Vistas\\Docentes\\Agregar_materias_docentes.cs",
+              "ToolTip": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Docentes\\Agregar_materias_docentes.cs",
+              "RelativeToolTip": "CS_Proyecto\\Vistas\\Docentes\\Agregar_materias_docentes.cs",
+              "ViewState": "AQIAAKoAAAAAAAAAAAAAALQAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-04-03T05:27:21.484Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "Agregar_Docente_Main.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Docentes\\Agregar_Docente_Main.cs",
+              "RelativeDocumentMoniker": "CS_Proyecto\\Vistas\\Docentes\\Agregar_Docente_Main.cs",
+              "ToolTip": "C:\\Users\\erick\\OneDrive\\Escritorio\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Docentes\\Agregar_Docente_Main.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\OneDrive\\Escritorio\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Docentes\\Agregar_Docente_Main.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-04-03T05:27:21.489Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "Agregar_Docente_cargos.cs",
+              "DocumentMoniker": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Docentes\\Agregar_Docente_cargos.cs",
+              "RelativeDocumentMoniker": "CS_Proyecto\\Vistas\\Docentes\\Agregar_Docente_cargos.cs",
+              "ToolTip": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Docentes\\Agregar_Docente_cargos.cs",
+              "RelativeToolTip": "CS_Proyecto\\Vistas\\Docentes\\Agregar_Docente_cargos.cs",
+              "ViewState": "AQIAAK8AAAAAAAAAAAAQwLoAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-04-03T05:27:21.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "Agregar_Docente_Main.cs",
+              "DocumentMoniker": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Docentes\\Agregar_Docente_Main.cs",
+              "RelativeDocumentMoniker": "CS_Proyecto\\Vistas\\Docentes\\Agregar_Docente_Main.cs",
+              "ToolTip": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Docentes\\Agregar_Docente_Main.cs",
+              "RelativeToolTip": "CS_Proyecto\\Vistas\\Docentes\\Agregar_Docente_Main.cs",
+              "ViewState": "AQIAAGAAAAAAAAAAAAAIwHMAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-04-03T05:27:21.506Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "AgregadoEditadoSeccion.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Mensajes Funcionales\\AgregadoEditadoSeccion.cs",
+              "RelativeDocumentMoniker": "CS_Proyecto\\Vistas\\Mensajes Funcionales\\AgregadoEditadoSeccion.cs",
+              "ToolTip": "C:\\Users\\erick\\OneDrive\\Escritorio\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Mensajes Funcionales\\AgregadoEditadoSeccion.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\OneDrive\\Escritorio\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Mensajes Funcionales\\AgregadoEditadoSeccion.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-04-03T05:27:21.512Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "EmpleadoRegistradoPart1.cs",
+              "DocumentMoniker": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Mensajes Funcionales\\EmpleadoRegistradoPart1.cs",
+              "RelativeDocumentMoniker": "CS_Proyecto\\Vistas\\Mensajes Funcionales\\EmpleadoRegistradoPart1.cs",
+              "ToolTip": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Mensajes Funcionales\\EmpleadoRegistradoPart1.cs",
+              "RelativeToolTip": "CS_Proyecto\\Vistas\\Mensajes Funcionales\\EmpleadoRegistradoPart1.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAIwA8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-04-03T05:27:21.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "NavegarEntreFormularios.cs",
+              "DocumentMoniker": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\ClasesVista\\NavegarEntreFormularios.cs",
+              "RelativeDocumentMoniker": "CS_Proyecto\\Vistas\\ClasesVista\\NavegarEntreFormularios.cs",
+              "ToolTip": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\ClasesVista\\NavegarEntreFormularios.cs",
+              "RelativeToolTip": "CS_Proyecto\\Vistas\\ClasesVista\\NavegarEntreFormularios.cs",
+              "ViewState": "AQIAABIBAAAAAAAAAAAowBsBAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T05:27:21.521Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "Conexion.cs",
+              "DocumentMoniker": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\CapaDatos\\Conexion.cs",
+              "RelativeDocumentMoniker": "CS_Proyecto\\CapaDatos\\Conexion.cs",
+              "ToolTip": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\CapaDatos\\Conexion.cs",
+              "RelativeToolTip": "CS_Proyecto\\CapaDatos\\Conexion.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T05:27:21.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "Nie_temporal_main.cs",
+              "DocumentMoniker": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Nie Temporal\\Nie_temporal_main.cs",
+              "RelativeDocumentMoniker": "CS_Proyecto\\Vistas\\Nie Temporal\\Nie_temporal_main.cs",
+              "ToolTip": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Nie Temporal\\Nie_temporal_main.cs",
+              "RelativeToolTip": "CS_Proyecto\\Vistas\\Nie Temporal\\Nie_temporal_main.cs",
+              "ViewState": "AQIAAGEAAAAAAAAAAAAQwGwAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-04-03T05:27:21.533Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "Nacionalidades.cs",
+              "DocumentMoniker": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Nacionalidades\\Nacionalidades.cs",
+              "RelativeDocumentMoniker": "CS_Proyecto\\Vistas\\Nacionalidades\\Nacionalidades.cs",
+              "ToolTip": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Nacionalidades\\Nacionalidades.cs",
+              "RelativeToolTip": "CS_Proyecto\\Vistas\\Nacionalidades\\Nacionalidades.cs",
+              "ViewState": "AQIAAHAAAAAAAAAAAAAiwIkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-04-03T05:27:21.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "TipoSeccion.cs",
+              "DocumentMoniker": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Secciones\\TipoSeccion.cs",
+              "RelativeDocumentMoniker": "CS_Proyecto\\Vistas\\Secciones\\TipoSeccion.cs",
+              "ToolTip": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Secciones\\TipoSeccion.cs",
+              "RelativeToolTip": "CS_Proyecto\\Vistas\\Secciones\\TipoSeccion.cs",
+              "ViewState": "AQIAAHcAAAAAAAAAAADwv4kAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-04-03T05:27:21.564Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "TipoSeccion.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Secciones\\TipoSeccion.cs",
+              "RelativeDocumentMoniker": "CS_Proyecto\\Vistas\\Secciones\\TipoSeccion.cs",
+              "ToolTip": "C:\\Users\\erick\\Downloads\\Nueva carpeta (2)\\CS\\CS\\CS_Proyecto\\CS_Proyecto\\Vistas\\Secciones\\TipoSeccion.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\Nueva carpeta (2)\\CS\\CS\\CS_Proyecto\\CS_Proyecto\\Vistas\\Secciones\\TipoSeccion.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-04-03T05:27:21.569Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "Nacionalidades.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\erick\\Downloads\\CS_3 (1)\\CS_FINALIZADO\\CS_Proyecto\\CS_Proyecto\\Vistas\\Nacionalidades\\Nacionalidades.cs",
+              "RelativeDocumentMoniker": "CS_Proyecto\\Vistas\\Nacionalidades\\Nacionalidades.cs",
+              "ToolTip": "C:\\Users\\erick\\Downloads\\Nueva carpeta (2)\\CS\\CS\\CS_Proyecto\\CS_Proyecto\\Vistas\\Nacionalidades\\Nacionalidades.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\Nueva carpeta (2)\\CS\\CS\\CS_Proyecto\\CS_Proyecto\\Vistas\\Nacionalidades\\Nacionalidades.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-04-03T05:27:21.573Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

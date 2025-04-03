@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Title of the Document</title>
+    <style>
+        table.border {
+            border-collapse: collapse;
+        }
+
+            table.border th {
+                padding: 10px;
+                border: 1px solid #DFDFDF;
+                font-size: 13px;
+            }
+
+            table.border td {
+                padding: 10px;
+                border: 1px solid #DFDFDF;
+                font-size: 13px;
+            }
+    </style>
+</head>
+<body>
+    <table style="width:100%">
+        <tr>
+            <td style="width:80%">
+                <table>
+                    <tr><td align="left"><h4 style="margin-bottom:5px">@TITULO</h4></td></tr>
+                    <tr><td align="left">@DESCRIPCION</td></tr>
+                </table>
+            </td>
+
+            <td style="width:20%" align="right">
+                <table>
+                    <tr><td align="right"><h4 style="margin-bottom: 5px">REPORTE</h4></td></tr>
+                    <tr><td align="right">@FECHA</td></tr>
+                </table>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="3">
+                <table style="margin-top:70px;">
+                    <tr><td align="left"><h4 style="margin-bottom: 10px;">Total de alumnos matriculados activos e inactivos hasta la fecha.</h4></td></tr>
+                </table>
+                <table class="border" style="width:100%;">
+                    <thead>
+                        <tr style="">
+                            <th style="text-align:left; width:230px;">Total Matriculados</th>
+                            <th style="text-align: left; width:230px;">Activos</th>
+                            <th style="text-align: left; width:230px;">Inactivos</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                        @FILAS1
+
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="3">
+                <table style="margin-top:70px;">
+                    <tr><td align="left"><h4 style="margin-bottom: 10px;">Total de alumnos activos registrados actualmente.</h4></td></tr>
+                </table>
+                <table class="border" style="width:100%;">
+                    <thead>
+                        <tr style="">
+                            <th style="text-align:left; width:230px;">Activos</th>
+                            <th style="text-align: left; width:230px;">Masculinos</th>
+                            <th style="text-align: left; width:230px;">Femeninos</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                        @FILAS2
+
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="3">
+                <table style="margin-top:70px;">
+                    <tr><td align="left"><h4 style="margin-bottom: 10px;">Total de alumnos inactivos registrados actualmente.</h4></td></tr>
+                </table>
+                <table class="border" style="width:100%;">
+                    <thead>
+                        <tr style="">
+                            <th style="text-align:left; width:230px;">Inactivos</th>
+                            <th style="text-align: left; width:230px;">Masculinos</th>
+                            <th style="text-align: left; width:230px;">Femeninos</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                        @FILAS3
+
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+
+    </table>
+
+       
+</body>
+</html>

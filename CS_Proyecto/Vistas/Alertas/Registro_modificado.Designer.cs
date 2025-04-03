@@ -1,0 +1,141 @@
+﻿namespace CS_Proyecto.Vistas.Alertas
+{
+    partial class Registro_modificado
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.btn_aceptar = new Guna.UI2.WinForms.Guna2Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.lbl_titulo = new System.Windows.Forms.Label();
+            this.lbl_descripcion = new System.Windows.Forms.Label();
+            this.guna2Panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // guna2Panel1
+            // 
+            this.guna2Panel1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Panel1.BorderRadius = 5;
+            this.guna2Panel1.Controls.Add(this.btn_aceptar);
+            this.guna2Panel1.Controls.Add(this.pictureBox1);
+            this.guna2Panel1.Controls.Add(this.lbl_titulo);
+            this.guna2Panel1.Controls.Add(this.lbl_descripcion);
+            this.guna2Panel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.guna2Panel1.FillColor = System.Drawing.Color.White;
+            this.guna2Panel1.Location = new System.Drawing.Point(10, 10);
+            this.guna2Panel1.Name = "guna2Panel1";
+            this.guna2Panel1.ShadowDecoration.Parent = this.guna2Panel1;
+            this.guna2Panel1.Size = new System.Drawing.Size(453, 233);
+            this.guna2Panel1.TabIndex = 4;
+            // 
+            // btn_aceptar
+            // 
+            this.btn_aceptar.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.btn_aceptar.BorderRadius = 5;
+            this.btn_aceptar.CheckedState.Parent = this.btn_aceptar;
+            this.btn_aceptar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_aceptar.CustomImages.Parent = this.btn_aceptar;
+            this.btn_aceptar.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(86)))), ((int)(((byte)(255)))));
+            this.btn_aceptar.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_aceptar.ForeColor = System.Drawing.Color.White;
+            this.btn_aceptar.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(86)))), ((int)(((byte)(255)))));
+            this.btn_aceptar.HoverState.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(86)))), ((int)(((byte)(255)))));
+            this.btn_aceptar.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(86)))), ((int)(((byte)(255)))));
+            this.btn_aceptar.HoverState.ForeColor = System.Drawing.Color.White;
+            this.btn_aceptar.HoverState.Parent = this.btn_aceptar;
+            this.btn_aceptar.Location = new System.Drawing.Point(28, 146);
+            this.btn_aceptar.Name = "btn_aceptar";
+            this.btn_aceptar.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(86)))), ((int)(((byte)(255)))));
+            this.btn_aceptar.ShadowDecoration.Parent = this.btn_aceptar;
+            this.btn_aceptar.Size = new System.Drawing.Size(397, 57);
+            this.btn_aceptar.TabIndex = 19;
+            this.btn_aceptar.Text = "Aceptar";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::CS_Proyecto.Properties.Resources.Registro_Exitoso;
+            this.pictureBox1.Location = new System.Drawing.Point(28, 39);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(80, 80);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox1.TabIndex = 12;
+            this.pictureBox1.TabStop = false;
+            // 
+            // lbl_titulo
+            // 
+            this.lbl_titulo.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.lbl_titulo.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_titulo.Font = new System.Drawing.Font("Microsoft YaHei UI", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_titulo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(53)))), ((int)(((byte)(51)))));
+            this.lbl_titulo.Location = new System.Drawing.Point(131, 39);
+            this.lbl_titulo.Name = "lbl_titulo";
+            this.lbl_titulo.Size = new System.Drawing.Size(303, 29);
+            this.lbl_titulo.TabIndex = 10;
+            this.lbl_titulo.Text = "!Registro modificado!";
+            // 
+            // lbl_descripcion
+            // 
+            this.lbl_descripcion.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.lbl_descripcion.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_descripcion.Font = new System.Drawing.Font("Microsoft YaHei UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_descripcion.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(104)))), ((int)(((byte)(104)))), ((int)(((byte)(104)))));
+            this.lbl_descripcion.Location = new System.Drawing.Point(132, 68);
+            this.lbl_descripcion.Name = "lbl_descripcion";
+            this.lbl_descripcion.Padding = new System.Windows.Forms.Padding(0, 0, 0, 10);
+            this.lbl_descripcion.Size = new System.Drawing.Size(318, 51);
+            this.lbl_descripcion.TabIndex = 11;
+            this.lbl_descripcion.Text = "Todos los datos se modificaron exitosamente en el sistema.";
+            // 
+            // Registro_modificado
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(473, 253);
+            this.Controls.Add(this.guna2Panel1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.MaximumSize = new System.Drawing.Size(473, 253);
+            this.MinimumSize = new System.Drawing.Size(473, 253);
+            this.Name = "Registro_modificado";
+            this.Padding = new System.Windows.Forms.Padding(10);
+            this.Text = "Registro_modificado";
+            this.guna2Panel1.ResumeLayout(false);
+            this.guna2Panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.ResumeLayout(false);
+
+        }
+
+        #endregion
+
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
+        public Guna.UI2.WinForms.Guna2Button btn_aceptar;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label lbl_titulo;
+        private System.Windows.Forms.Label lbl_descripcion;
+    }
+}

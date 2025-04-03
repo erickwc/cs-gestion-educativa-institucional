@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>@TITULO</title>
+    <style>
+        table.border {
+            border-collapse: collapse;
+        }
+
+        table.border th {
+            padding: 3px;
+            border: 1px solid #fff; /* Color del borde */
+            font-size: 13px;
+            width: 110px;
+        }
+
+        table.border td {
+            padding: 3px;
+            border: 1px solid #fff; /* Color del borde */
+            font-size: 13px;
+            width: 140px;
+        }
+
+        .box {
+            border: 1px solid #000; /* Color del borde */
+            padding: 10px; /* Espaciado interno */
+            margin-bottom: 10px; /* Espacio inferior entre cajas */
+        }
+    </style>
+</head>
+<body>
+    <table style="width:100%">
+        <tr>
+            <td style="width:50%">
+                <table>
+                    <tr><td align="left"><h4 style="margin:0px">@TITULO</h4></td></tr>
+                    <tr><td align="left">@DESCRIPCION</td></tr>
+                </table>
+            </td>
+
+            <td style="width:50%" align="right">
+                <table>
+                    <tr><td align="right"><h4 style="margin:0px">NIE: @REPORTE</h4></td></tr>
+                    <tr><td align="right">@FECHA</td></tr>
+                </table>
+            </td>
+        </tr>
+
+        <tr><td colspan="3" height="30"></td></tr>
+
+        <tr>
+            <td colspan="4">
+                <!-- Cuadro con borde -->
+                <div class="box">
+                    <h4 style="margin-top: 0;">DATOS PERSONALES</h4>
+                    <table class="border" style="width:100%;">
+                        <thead>
+                            <tr>
+                                <th style="text-align:left;">Nombres</th>
+                                <th style="text-align:left;">Apellidos</th>
+                                <th style="text-align:left;">Fecha Nac</th>
+                                <th style="text-align:left;">Lugar Nac</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>@Nombres</td>
+                                <td>@apellidos</td>
+                                <td>@fechaNac</td>
+                                <td>@LugarNac</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    
+                     <table class="border" style="width:100%;">
+                        <thead>
+                            <tr>
+                                <th style="text-align:left;">Genero</th>
+                                <th style="text-align:left;">Inst. Procedencia</th>
+                                <th style="text-align:left;">Partida Nac</th>
+                                <th style="text-align:left;">Nacionalidad</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>@Genero</td>
+                                <td>@instProc</td>
+                                <td>@PartidaNac</td>
+                                <td>@Nacionalidad</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    
+                     <table class="border" style="width:100%;">
+                        <thead>
+                            <tr>
+                                <th style="text-align:left;">Educ. Inicial</th>
+                                <th style="text-align:left;">Sección Inicial</th>
+                                <th style="text-align:left;">Año de Ingreso</th>
+                                <th style="text-align:left;">¿Repitiendo Año?</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>@EducInicial</td>
+                                <td>@SecInicial</td>
+                                <td>@AñoIngreso</td>
+                                <td>@Repitiendo</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </td>
+        </tr>
+        
+         <tr>
+            <td colspan="4">
+                <!-- Cuadro con borde -->
+                <div class="box">
+                    <h4 style="margin-top: 0;">RESPONSABLE PRINCIPAL</h4>
+                    <table class="border" style="width:100%;">
+                        <thead>
+                            <tr>
+                                <th style="text-align:left;">Nombre Completo</th>
+                                <th style="text-align:left;">Politicamente Exp.</th>
+                                <th style="text-align:left;">Parentesco</th>
+                                <th style="text-align:left;">DUI</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>@RespPrin</td>
+                                <td>@Politica</td>
+                                <td>@parentesco</td>
+                                <td>@dui</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    
+                     <table class="border" style="width:100%;">
+                        <thead>
+                            <tr>
+                                <th style="text-align:left;">Genero</th>
+                                <th style="text-align:left;">Correo</th>
+                                <th style="text-align:left;">Tel. Principal</th>
+                                <th style="text-align:left;">Tel. Secundario</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>@genero</td>
+                                <td>@correo</td>
+                                <td>@telPrin</td>
+                                <td>@telSec</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    
+                     <table class="border" style="width:100%;">
+                        <thead>
+                            <tr>
+                                <th style="text-align:left;">Lugar de trabajo</th>
+                                <th style="text-align:left;">Tel. Trabajo Prin.</th>
+                                <th style="text-align:left;">Tel. Trabajo Sec.</th>
+                                <th style="text-align:left;"></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>@LugarTrab</td>
+                                <td>@TelTrabPrin</td>
+                                <td>@TelTrabSec</td>
+                                <td style="color:white;">@LUGARNAC</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </td>
+        </tr>
+        
+         <tr>
+            <td colspan="4">
+                <!-- Cuadro con borde -->
+                <div class="box">
+                    <h4 style="margin-top: 0;">RESPONSABLE SECUNDARIO</h4>
+                    <table class="border" style="width:100%;">
+                        <thead>
+                            <tr>
+                                <th style="text-align:left;">Nombre Completo</th>
+                                <th style="text-align:left;">Parentesco</th>
+                                <th style="text-align:left;">Lugar Trabajo</th>
+                                <th style="text-align:left;">DUI</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>@RespSec</td>
+                                <td>@Parentesco</td>
+                                <td>@LugarTrab</td>
+                                <td>@Dui</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    
+                     <table class="border" style="width:100%;">
+                        <thead>
+                            <tr>
+                                <th style="text-align:left;">Tel. Principal</th>
+                                <th style="text-align:left;">Tel. Secundario</th>
+                                <th style="text-align:left;"
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>@NOMBRES</td>
+                                <td>@APELLIDOS</td>
+                                <td style="color:white;">@FECHANAC</td>
+                                <td style="color:white;">@LUGARNAC</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    
+                    
+                </div>
+            </td>
+        </tr>
+        
+         <tr>
+            <td colspan="4">
+                <!-- Cuadro con borde -->
+                <div class="box">
+                    <h4 style="margin-top: 0;">RESIDENCIA Y CONTACTO</h4>
+                    <table class="border" style="width:100%;">
+                        <thead>
+                            <tr>
+                                <th style="text-align:left;">Direccion</th>
+                                <th style="text-align:left;">Canton</th>
+                                <th style="text-align:left;">Caserio</th>
+                                <th style="text-align:left;">Departamento</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>@direccion</td>
+                                <td>@canton</td>
+                                <td>@caserio</td>
+                                <td>@departamento</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    
+                     <table class="border" style="width:100%;">
+                        <thead>
+                            <tr>
+                                <th style="text-align:left;">Municipio</th>
+                                <th style="text-align:left;">Zona Residencia</th>
+                                <th style="text-align:left;">Tel. Fijo</th>
+                                <th style="text-align:left;">Tel. Fijo Sec.</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>@municipio</td>
+                                <td>@residencia</td>
+                                <td>@telFijo</td>
+                                <td>@telFijoSec</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    
+                     <table class="border" style="width:100%;">
+                        <thead>
+                            <tr>
+                                <th style="text-align:left;">Tel. Alumno</th>
+                                <th style="text-align:left;">Tel. Sec. Alumno</th>
+                                <th style="text-align:left;">Correo Alumno</th>
+                                <th style="text-align:left;"
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>@telAlumno</td>
+                                <td>@telSecAlumno</td>
+                                <td>@CorreoAlumno</td>
+                                <td style="color:white;">@LUGARNAC</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </td>
+        </tr>
+        
+         <tr>
+            <td colspan="4">
+                <!-- Cuadro con borde -->
+                <div class="box">
+                    <h4 style="margin-top: 0;">SITUACION FAMILIAR</h4>
+                    <table class="border" style="width:100%;">
+                        <thead>
+                            <tr>
+                                <th style="text-align:left;">Personas Hogar</th>
+                                <th style="text-align:left;">Dependencia Fam.</th>
+                                <th style="text-align:left;">Dependencia Eco.</th>
+                                <th style="text-align:left;">Lugar Trabajo</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>@numero</td>
+                                <td>@dependenciaFam</td>
+                                <td>@dependenciaEco</td>
+                                <td>@lugartrabajo</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    
+                     <table class="border" style="width:100%;">
+                        <thead>
+                            <tr>
+                                <th style="text-align:left;">Cargo Trabajo</th>
+                              
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>@CargoTrabajo</td>
+                                <td style="color:white;">@APELLIDOS</td>
+                                <td style="color:white;">@FECHANAC</td>
+                                <td style="color:white;">@LUGARNAC</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    
+                    
+                </div>
+            </td>
+        </tr>
+        
+         <tr>
+            <td colspan="4">
+                <!-- Cuadro con borde -->
+                <div class="box">
+                    <h4 style="margin-top: 0;">DATOS COMPLEMENTARIOS</h4>
+                    <table class="border" style="width:100%;">
+                        <thead>
+                            <tr>
+                                <th style="text-align:left;">Vacunacion COVID</th>
+                                <th style="text-align:left;">Proceso Academico</th>
+                                <th style="text-align:left;">¿Posee Internet?</th>
+                                <th style="text-align:left;">Tipo de Conexion</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>@vacunacion</td>
+                                <td>@proceso</td>
+                                <td>@internet</td>
+                                <td>@tipoconexion</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    
+                     <table class="border" style="width:100%;">
+                        <thead>
+                            <tr>
+                                <th style="text-align:left;">¿Estabilidad Internet?</th>
+                                <th style="text-align:left;">Prov. Internet</th>
+                                <th style="text-align:left;">Recursos Tecnologicos</th>
+                                <th style="text-align:left;"
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>@NOMBRES</td>
+                                <td>@APELLIDOS</td>
+                                <td>@FECHANAC</td>
+                                <td style="color:white;">@LUGARNAC</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    
+                     
+                </div>
+            </td>
+        </tr>
+        
+        <tr>
+            <td colspan="4">
+                <!-- Cuadro con borde -->
+                <div class="box">
+                    <h4 style="margin-top: 0;">SITUACION FAMILIAR</h4>
+                    <table class="border" style="width:100%;">
+                        <thead>
+                            <tr>
+                                <th style="text-align:left;">Personas Hogar</th>
+                                <th style="text-align:left;">Dependencia Fam.</th>
+                                <th style="text-align:left;">Dependencia Eco.</th>
+                                <th style="text-align:left;">Lugar Trabajo</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>@numero</td>
+                                <td>@dependenciaFam</td>
+                                <td>@dependenciaEco</td>
+                                <td>@lugartrabajo</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    
+                     <table class="border" style="width:100%;">
+                        <thead>
+                            <tr>
+                                <th style="text-align:left;">Cargo Trabajo</th>
+                              
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>@CargoTrabajo</td>
+                                <td style="color:white;">@APELLIDOS</td>
+                                <td style="color:white;">@FECHANAC</td>
+                                <td style="color:white;">@LUGARNAC</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    
+                    
+                </div>
+            </td>
+        </tr>
+        
+         <tr>
+            <td colspan="4">
+                <!-- Cuadro con borde -->
+                <div class="box">
+                    <h4 style="margin-top: 0;">PAGO DE MATRICULA</h4>
+                    <table class="border" style="width:100%;">
+                        <thead>
+                            <tr>
+                                <th style="text-align:left;">Tipo Pago</th>
+                                <th style="text-align:left;">Cantidad Cancelada</th>
+                                <th style="text-align:left;">Cantidad Restante</th>
+                                <th style="text-align:left;">Forma Pago</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>@tipoPago</td>
+                                <td>@cantCancelada</td>
+                                <td>@cantRestante</td>
+                                <td>@formaPago</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    
+                </div>
+            </td>
+        </tr>
+        
+        
+         <tr>
+            <td colspan="4">
+                <!-- Cuadro con borde -->
+                <div class="box">
+                    <h4 style="margin-top: 0;">INSCRIPCION DE MATRICULA</h4>
+                    <table class="border" style="width:100%;">
+                        <thead>
+                            <tr>
+                                <th style="text-align:left;">Seccion Asignada</th>
+                                <th style="text-align:left;">Especialidad</th>
+                                <th style="text-align:left;">Estado</th>
+                                <th style="text-align:left;">Numero Talonario</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>@seccion</td>
+                                <td>@especialidad</td>
+                                <td>@estado</td>
+                                <td>@numtalonario</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    
+                </div>
+            </td>
+        </tr>
+
+        <!-- Resto de tu código -->
+
+    </table>
+</body>
+</html>

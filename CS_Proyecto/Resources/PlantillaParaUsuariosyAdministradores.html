@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>@TITULO</title>
+    <style>
+        table.border {
+            border-collapse: collapse;
+        }
+
+            table.border th {
+                padding: 10px;
+                border: 1px solid #DFDFDF;
+            }
+
+            table.border td {
+                padding: 10px;
+                border: 1px solid #DFDFDF;
+            }
+    </style>
+</head>
+<body>
+    <table style="width:100%">
+        <tr>
+
+            <td style="width:50%">
+                <table>
+                    <tr><td align="left"><h4 style="margin:0px">@TITULO</h4></td></tr>
+                    <tr><td align="left">@DESCRIPCION</td></tr>
+
+                </table>
+            </td>
+
+            <td style="width:50%" align="right">
+                <table>
+                    <tr><td align="right"><h4 style="margin:0px">REPORTE</h4></td></tr>
+                    <tr><td align="right">@FECHA</td></tr>
+
+                </table>
+            </td>
+        </tr>
+
+
+        <tr><td colspan="3" height="30"></td></tr>
+
+        <tr>
+            <td colspan="3">
+                <table class="border" style="width:100%;">
+                    <thead>
+                        <tr style="">
+                            <th style="padding:10px; text-align:left;">ID</th>
+                            <th style="padding:10px; text-align:left;">Usuario</th>
+                            <th style="padding:10px; text-align:left;">Nombres</th>
+                            <th style="padding:10px; text-align:left;">Apellidos</th>
+                            <th style="padding:10px; text-align:left;">Genero</th>
+                            <th style="padding:10px; text-align:left;">Privilegio</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                        @FILAS
+
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

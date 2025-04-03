@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>@TITULO</title>
+    <style>
+        table.border {
+            border-collapse: collapse;
+        }
+
+            table.border th {
+                padding: 10px;
+                border: 1px solid #DFDFDF;
+                font-size: 13px;
+            }
+
+            table.border td {
+                padding: 10px;
+                border: 1px solid #DFDFDF;
+                font-size: 13px;
+            }
+    </style>
+</head>
+<body>
+    <table style="width:100%">
+        <tr>
+
+            <td style="width:80%">
+                <table>
+                    <tr><td align="left"><h4 style="margin-bottom:5px">@TITULO</h4></td></tr>
+                    <tr><td align="left">@DESCRIPCION</td></tr>
+                </table>
+            </td>
+
+            <td style="width:20%" align="right">
+                <table>
+                    <tr><td align="left"><h4 style="margin-bottom:5px">REPORTE</h4></td></tr>
+                    <tr><td align="right">@FECHA</td></tr>
+
+                </table>
+            </td>
+        </tr>
+
+
+        <tr><td colspan="3" height="30"></td></tr>
+
+        <tr>
+            <td colspan="3">
+                <table class="border" style="width:100%;">
+                    <thead>
+                        <tr style="">
+                            <th style="text-align:left;">Sección</th>
+                             <th style="text-align:left; width:250px;">Guia</th>
+                             <th style="text-align:left;">Total</th>
+                             <th style="text-align:left;">Masc.</th>
+                             <th style="text-align:left;">Fem.</th>
+                             <th style="text-align:left; width:60px;">3 Dos.</th>
+                             <th style="text-align:left; width:60px;">2 Dos.</th>
+                             <th style="text-align:left; width:60px;">1 Dos.</th>
+                             <th style="text-align:left;">Repo</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                        @FILAS
+
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
