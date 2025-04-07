@@ -59,12 +59,6 @@ Envío automático de un correo de bienvenida y confirmación al estudiante al f
 ![image](https://github.com/user-attachments/assets/a4bb4be6-05a1-43d9-8739-c66de449b6bd)
 ![image](https://github.com/user-attachments/assets/1e3fbcfa-cddf-451c-8448-a194e098c1ac)
 
-### Modales
-![image](https://github.com/user-attachments/assets/dd777256-dd75-4cbb-a818-311d488c0a70)
-![image](https://github.com/user-attachments/assets/8a162377-a308-4a28-8064-684a75053126)
-![image](https://github.com/user-attachments/assets/70055e41-77f7-4319-b120-5636bec15ef4)
-![image](https://github.com/user-attachments/assets/e8061ce7-a0e5-42fa-831b-dead266ed0b7)
-
 ### Gestion medica de alumnos y docentes
 ![image](https://github.com/user-attachments/assets/1da26933-f49d-4688-b34b-6c39d2d652f9)
 ![image](https://github.com/user-attachments/assets/dca3f645-e276-4509-9407-87c390d41136)
@@ -87,7 +81,7 @@ Envío automático de un correo de bienvenida y confirmación al estudiante al f
 ### Recuperacion de contraseña
 ![image](https://github.com/user-attachments/assets/c6ec09ab-c084-434f-9116-349698b3748e)
 ![image](https://github.com/user-attachments/assets/99b6d0ad-3bc8-417a-83ea-88410747f6f2)
-
+![image](https://github.com/user-attachments/assets/b33dd8a3-1cbd-4c59-9176-dffaa9400a9a)
 
 ### Mantenimiento y Registro de empleados
 ![image](https://github.com/user-attachments/assets/4e905da1-d4e9-47f6-8b73-645566cfc50c)
@@ -103,6 +97,13 @@ Envío automático de un correo de bienvenida y confirmación al estudiante al f
 ![image](https://github.com/user-attachments/assets/e55ec91c-d576-4aa2-b878-8272b434f8ea)
 ![image](https://github.com/user-attachments/assets/75aa8119-f0e9-402d-bd2f-171cb159a1f3)
 ![image](https://github.com/user-attachments/assets/a9a71fd1-c7d8-4d59-9974-d409d960e9ad)
+
+### Modales
+![image](https://github.com/user-attachments/assets/dd777256-dd75-4cbb-a818-311d488c0a70)
+![image](https://github.com/user-attachments/assets/8a162377-a308-4a28-8064-684a75053126)
+![image](https://github.com/user-attachments/assets/70055e41-77f7-4319-b120-5636bec15ef4)
+![image](https://github.com/user-attachments/assets/e8061ce7-a0e5-42fa-831b-dead266ed0b7)
+
 
 
 
